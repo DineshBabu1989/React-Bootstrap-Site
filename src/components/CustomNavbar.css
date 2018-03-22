@@ -7,7 +7,7 @@ nav.navbar, .navbar-inverse  {
   border: none;
   border-radius: 0;
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -51,9 +51,21 @@ nav.navbar, .navbar-inverse  {
     background-color: #fff;
 }
 /* Over writting Bootstrap Site for link color on drop down*/
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color:#234f72;
+    color: #234f72;
+}
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    background-color:#fff;
-    color: #000;
+    color: #fffbfb;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color:#fffbfb;  
+    color:#000;
+    
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #fff;
+    
 }
 /* centering the drop down list */
 .navbar-inverse .dropdown-menu {
@@ -64,7 +76,27 @@ nav.navbar, .navbar-inverse  {
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: #fff;
 }
-
+@media (max-width: 767px)
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 1px;
+    border-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+/* logo fixing css */
+.logofix{
+    width:20;
+    margin-top: 8px;
+    margin-left:15px;
+    margin-right:15px;
+    float:left;
+}
 /* font families included from google font families */
 /*
 font-family: 'Abel', sans-serif;

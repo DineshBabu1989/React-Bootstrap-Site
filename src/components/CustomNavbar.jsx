@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Image } from 'react-bootstrap';
 import './CustomNavbar.css'
-
+import logo from '../images/logogem.svg';
 class CustomNavbar extends Component {
   render() {
     return (
       <Navbar inverse collapseOnSelect>
       
       <Navbar.Header>
+          <img className="logofix" src={logo} />
           <Navbar.Brand>
-           GEM Enterprises
+            GEM Enterprises
           </Navbar.Brand>
           <Navbar.Toggle />
       </Navbar.Header>
