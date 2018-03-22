@@ -94,9 +94,10 @@ nav.navbar, .navbar-inverse  {
     width:20;
     margin-top: 8px;
     margin-left:15px;
-    margin-right:15px;
+    margin-right:5px;
     float:left;
 }
+
 /* font families included from google font families */
 /*
 font-family: 'Abel', sans-serif;
