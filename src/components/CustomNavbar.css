@@ -1,0 +1,73 @@
+nav.navbar, .navbar-inverse  {
+  background-color: #234f72 !important;
+}
+
+.navbar-inverse  {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #000;
+}
+/*hover over navbar list to make it white*/
+.navbar-inverse .navbar-nav > li:hover {
+    color: black;
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav > li{
+  color: white;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: #fff;
+}
+/* Over writting Bootstrap Site for link color on drop down*/
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    background-color:#fff;
+    color: #000;
+}
+/* centering the drop down list */
+.navbar-inverse .dropdown-menu {
+    right: 0;
+    left:  0;
+}
+/* Changing default border color to white*/
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #fff;
+}
+
+/* font families included from google font families */
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Economica', sans-serif;
+*/
