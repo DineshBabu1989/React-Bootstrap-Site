@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './CustomNavbar.css'
 import logo from '../images/logogem.svg';
+
 class CustomNavbar extends Component {
   render() {
     return (
@@ -20,7 +22,7 @@ class CustomNavbar extends Component {
             <NavItem eventKey={1}  href="/" to="/">
               Home
             </NavItem>
-            <NavItem eventKey={2}  href="/about" to="/about">
+            <NavItem eventKey={2}  href="/About" to="/About">
               About
             </NavItem>
             

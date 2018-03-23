@@ -1,0 +1,34 @@
+.item{
+    
+    background-color:#142f44 !important ;
+    height: 325px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 10px;
+    border:2px;
+    border-color: aliceblue;
+    padding:25px;
+    color:white;
+}
+
+.show-grid{
+    color:white;
+    background-color: #b58724 !important;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    height: 325px;
+}
+.iconHolder
+{
+    text-align: center;
+}
+.icon{
+    font-size: 100px; 
+}
+
+.title
+{
+    text-align: center;  
+    
+}
+

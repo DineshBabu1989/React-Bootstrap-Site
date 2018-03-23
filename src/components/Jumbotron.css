@@ -1,0 +1,58 @@
+.jumbotron 
+{
+    background-image: url("../images/slide1.png");
+    font-family: 'Abel', sans-serif;
+    color:#fff;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+.div{
+    margin-bottom: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #234F72;
+    border-color: #234F72;
+    margin-left: 10px;
+    width:150px;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+}
+.btn-primary:hover {
+    color: #000;
+    background-color: #ededed;
+    border-color: #ededed;
+    margin-left: 10px;
+    width:150px;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+}
+@media only screen and (max-width: 700px) {
+ 
+    .jumbotron 
+{
+    background-image: url("../images/slide1.png");
+    font-family: 'Abel', sans-serif;
+    color:#fff;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #234F72;
+    border-color: #234F72;
+    margin-left: 0px;
+    width:150px;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+}
+.btn-primary:hover {
+    color: #000;
+    background-color: #ededed;
+    border-color: #ededed;
+    margin-left: 0px;
+    width:150px;
+    height: 50px;
+    font-family: 'Abel', sans-serif;
+}
+}

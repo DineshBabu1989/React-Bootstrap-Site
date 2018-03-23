@@ -1,13 +1,15 @@
 nav.navbar, .navbar-inverse  {
   background-color: #234f72 !important;
+ margin-bottom: 0px;
 }
 
 .navbar-inverse  {
   background-image: none;
   border: none;
   border-radius: 0;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
+  /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Abel', sans-serif;
+  font-size: 17px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -19,7 +21,7 @@ nav.navbar, .navbar-inverse  {
 /*hover over navbar list to make it white*/
 .navbar-inverse .navbar-nav > li:hover {
     color: black;
-    background-color: #fff;
+     background-color: #ededed;
 }
 .navbar-inverse .navbar-nav > li{
   color: white;
@@ -33,7 +35,7 @@ nav.navbar, .navbar-inverse  {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: #ededed;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -48,7 +50,7 @@ nav.navbar, .navbar-inverse  {
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
     color: black;
-    background-color: #fff;
+    background-color: #ededed;
 }
 /* Over writting Bootstrap Site for link color on drop down*/
 .navbar-inverse .navbar-nav .open .dropdown-menu {
@@ -59,12 +61,12 @@ nav.navbar, .navbar-inverse  {
     color: #fffbfb;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    background-color:#fffbfb;  
+    background-color:#ededed;  
     color:#000;
     
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #fff;
+    background-color: #ededed;
     
 }
 /* centering the drop down list */
@@ -74,7 +76,7 @@ nav.navbar, .navbar-inverse  {
 }
 /* Changing default border color to white*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: #fff;
+  border-color: #ededed;
 }
 @media (max-width: 767px)
 .navbar-nav .open .dropdown-menu {
