@@ -8,7 +8,6 @@ render()
 return(
 <div> 
 <JumbotronFront />
-<WhatWeDo />
 </div>  
 );
 }

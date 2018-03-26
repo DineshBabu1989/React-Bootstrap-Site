@@ -1,103 +1,128 @@
-nav.navbar, .navbar-inverse  {
-  background-color: #234f72 !important;
- margin-bottom: 0px;
-}
-
-.navbar-inverse  {
-  background-image: none;
+.navbar-default {
+  background-color: #2f5366 !important;
+  margin-bottom: 0px;
   border: none;
   border-radius: 0;
-  /*font-family: 'Quicksand', sans-serif;*/
-    font-family: 'Abel', sans-serif;
+  height: 75px;
+  padding: 10px;
+  font-family: 'Abel', sans-serif;
   font-size: 17px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-  color: white;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: #000;
-}
-/*hover over navbar list to make it white*/
-.navbar-inverse .navbar-nav > li:hover {
-    color: black;
-     background-color: #ededed;
-}
-.navbar-inverse .navbar-nav > li{
-  color: white;
-}
-.navbar-inverse .navbar-brand {
-  color: white;
+.navbar-default .navbar-nav > li {
+  color: #ededed;
 }
 
-.navbar-inverse .navbar-toggle {
-  border-color: white;
+.navbar-default .navbar-nav > li:hover {
+  color: #ededed;
+  background-color: transparent;
+  border-bottom: 3px solid #ededed;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-default .navbar-nav > li > a {
+  color: #ededed;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ededed;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: #ededed;
+  float: left;
+  height: 30px;
+  margin-top: 6px;
+  font-size: 21px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #ededed;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #ededed;
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-  color: white;
-  background-color: transparent;
-}
-
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: black;
-    background-color: #ededed;
-}
-/* Over writting Bootstrap Site for link color on drop down*/
-.navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color:#234f72;
-    color: #234f72;
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #fffbfb;
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    background-color:#ededed;  
-    color:#000;
-    
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #ededed;
-    
-}
-/* centering the drop down list */
-.navbar-inverse .dropdown-menu {
-    right: 0;
-    left:  0;
-}
-/* Changing default border color to white*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-default .navbar-toggle {
   border-color: #ededed;
 }
-@media (max-width: 767px)
-.navbar-nav .open .dropdown-menu {
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: #ededed;
+  background-color: transparent;
+  border-bottom: 3px solid #ededed;
+}
+
+/* Over writting Bootstrap Site for link color on drop down*/
+.navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: #2f5366 !important;
+  color: #ededed;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ededed;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #ededed;
+  background-color: transparent;
+  border-bottom: 3px solid #ededed;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu .divider {
+  background-color: #ededed;
+}
+
+/* centering the drop down list */
+.navbar-default .dropdown-menu {
+  right: 0;
+  left: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #ededed;
+  background-color: #2f5366 !important;
+}
+
+/* Changing default border color to white*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #ededed;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: transparent;
+    background-color: #2f5366 !important;
     border: 1px;
-    border-color: #fff;
+    border-color: #ededed;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
+  }
 }
+
 /* logo fixing css */
-.logofix{
-    width:20;
-    margin-top: 8px;
-    margin-left:15px;
-    margin-right:5px;
-    float:left;
+.logofix {
+  margin-top: 0px;
+  margin-left: 15px;
+  margin-right: 5px;
+  float: left;
 }
 
 /* font families included from google font families */

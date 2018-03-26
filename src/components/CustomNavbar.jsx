@@ -7,7 +7,7 @@ import logo from '../images/logogem.svg';
 class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar collapseOnSelect>
       
       <Navbar.Header>
           <img className="logofix" src={logo} />

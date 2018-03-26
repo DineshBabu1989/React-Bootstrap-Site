@@ -1,0 +1,132 @@
+$themeColor : #2f5366!important;
+$hoverColor :#ededed;
+
+//NavBar 
+
+.navbar-default  {
+ background-color: $themeColor;
+ margin-bottom: 0px;
+ border: none;
+ border-radius: 0;
+ height:75px;
+ padding:10px;
+ font-family: 'Abel', sans-serif;
+ font-size: 17px
+}
+//Navbar List 
+.navbar-default .navbar-nav > li{
+  color:$hoverColor ;
+}
+.navbar-default .navbar-nav > li:hover {
+    color:$hoverColor;
+    background-color: transparent;
+    border-bottom: 3px solid $hoverColor;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $hoverColor;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+    color: $hoverColor;
+    background-color: transparent;
+}
+
+//Navbar Brand
+.navbar-default .navbar-brand {
+  color: $hoverColor;
+  float: left;
+  height: 30px;
+    margin-top: 6px;
+  font-size: 21px;
+  font-family: 'Josefin Sans', sans-serif;
+    //font-family: 'El Messiri', sans-serif;
+  font-weight: 700
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+  color:$hoverColor ;
+  background-color: transparent;
+}
+
+//Toggle Button 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $hoverColor;
+}
+.navbar-default .navbar-toggle {
+  border-color: $hoverColor;
+}
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+//Navbar List Drop Down
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+    color: $hoverColor  ;
+    background-color: transparent;
+    border-bottom: 3px solid $hoverColor ;
+}
+/* Over writting Bootstrap Site for link color on drop down*/
+.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color:$themeColor;
+    color:$hoverColor ;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: $hoverColor ;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: $hoverColor ;
+    background-color: transparent;
+    border-bottom: 3px solid $hoverColor ;
+    
+}
+.navbar-default .navbar-nav .open .dropdown-menu .divider {
+    background-color: $hoverColor ;
+    
+}
+/* centering the drop down list */
+.navbar-default .dropdown-menu {
+    right: 0;
+    left:  0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: $hoverColor ;
+    background-color:$themeColor ;
+}
+/* Changing default border color to white*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: $hoverColor;
+}
+@media (max-width: 767px)
+{
+    .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: $themeColor;
+    border: 1px;
+    border-color: $hoverColor ;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+}
+
+/* logo fixing css */
+.logofix{
+    margin-top: 0px;
+    margin-left:15px;
+    margin-right:5px;
+    float:left;
+}
+
+/* font families included from google font families */
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Economica', sans-serif;
+*/
