@@ -1,5 +1,5 @@
 .navbar-default {
-  background-color: #2f5366 !important;
+  background-color: #112a39 !important;
   margin-bottom: 0px;
   border: none;
   border-radius: 0;
@@ -10,47 +10,47 @@
 }
 
 .navbar-default .navbar-nav > li {
-  color: #ededed;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li:hover {
-  color: #ededed;
+  color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #ededed;
+  border-bottom: 3px solid #fff;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #ededed;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #ededed;
+  color: #fff;
   background-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-  color: #ededed;
+  color: #fff;
   float: left;
   height: 30px;
   margin-top: 6px;
   font-size: 21px;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-  color: #ededed;
+  color: #fff;
   background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ededed;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #ededed;
+  border-color: #fff;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -61,29 +61,29 @@
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-  color: #ededed;
+  color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #ededed;
+  border-bottom: 3px solid #fff;
 }
 
 /* Over writting Bootstrap Site for link color on drop down*/
 .navbar-default .navbar-nav .open .dropdown-menu {
-  background-color: #2f5366 !important;
-  color: #ededed;
+  background-color: #112a39 !important;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #ededed;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-  color: #ededed;
+  color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #ededed;
+  border-bottom: 3px solid #fff;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu .divider {
-  background-color: #ededed;
+  background-color: #fff;
 }
 
 /* centering the drop down list */
@@ -93,13 +93,13 @@
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #ededed;
-  background-color: #2f5366 !important;
+  border-color: #fff;
+  background-color: #112a39 !important;
 }
 
 /* Changing default border color to white*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #ededed;
+  border-color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -108,9 +108,9 @@
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: #2f5366 !important;
+    background-color: #112a39 !important;
     border: 1px;
-    border-color: #ededed;
+    border-color: #fff;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
