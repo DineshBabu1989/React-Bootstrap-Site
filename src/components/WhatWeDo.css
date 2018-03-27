@@ -1,22 +1,24 @@
 .item{
     
-    background-color:#234f72 !important ;
+    /*background-color:#f4bc1f !important ;*/
+    background-color:#c4c4c4 !important ;
     height: 325px;
     text-align: justify;
     text-justify: inter-word;
     margin-top: 10px;
-    border:2px;
+    border-radius:10px;
     border-color: aliceblue;
     padding:25px;
-    color:white;
+    color:black;
 }
 
 .show-grid{
-    color:white;
-    background-color: #b58724 !important;
+    color:black;
+    background-color: #c4c4c4!important;
     text-align: center;
     font-family: 'Abel', sans-serif;
-    height: 325px;
+    height: 300px;
+    text-align: center;
 }
 .iconHolder
 {
@@ -31,4 +33,11 @@
     text-align: center;  
     
 }
-
+.outterRing
+{
+    background-color: #c4c4c4!important;
+}
+.line{
+    height:1px;
+    background-color:black;
+}

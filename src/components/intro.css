@@ -1,0 +1,43 @@
+/*
+$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+*/
+.outterRing {
+  background-color: #233f53;
+  height: 200px;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-Size: 20px;
+  padding: 25px; }
+
+.outterRing:hover {
+  background-color: #0d202c;
+  height: 200px;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-Size: 20px;
+  padding: 25px; }
+
+.innerRing {
+  height: 150px;
+  border-bottom: 1px solid #415d6e;
+  border-top: 1px solid #415d6e;
+  padding-right: 250px;
+  text-align: center;
+  font-Size: 17px;
+  margin-right: 80px; }
+
+.picRing {
+  height: 150px;
+  border-radius: 20px;
+  background: gray url(../images/intro.png) repeat 0 0;
+  background-size: 200px 150px;
+  -webkit-animation: slide 20s linear infinite; }
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: -400px 0; } }
