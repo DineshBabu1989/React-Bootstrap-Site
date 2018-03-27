@@ -3,6 +3,7 @@ $themeColor : #112a39!important;
 $hoverColor :#fff;
 $Block: #233f53;
 $hoverBlock:#0d202c;
+$smallLine:#415d6e;
 */
 .outterRing {
   background-color: #233f53;
@@ -10,15 +11,17 @@ $hoverBlock:#0d202c;
   color: #fff;
   font-family: "Abel", sans-serif;
   font-Size: 20px;
-  padding: 25px; }
-
-.outterRing:hover {
-  background-color: #0d202c;
-  height: 200px;
-  color: #fff;
-  font-family: "Abel", sans-serif;
-  font-Size: 20px;
-  padding: 25px; }
+  padding: 25px;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in; }
+  .outterRing:hover {
+    background-color: #0d202c;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out; }
 
 .innerRing {
   height: 150px;
@@ -29,15 +32,57 @@ $hoverBlock:#0d202c;
   font-Size: 17px;
   margin-right: 80px; }
 
-.picRing {
-  height: 150px;
-  border-radius: 20px;
-  background: gray url(../images/intro.png) repeat 0 0;
-  background-size: 200px 150px;
-  -webkit-animation: slide 20s linear infinite; }
+/*
+.picRing{
+    height:150px;
+    border-radius: 100px;
+   //picture movement animation 
+    background: gray url(../images/intro.png) repeat 0 0;
+    background-size: 200px 150px;
+   -webkit-animation: slide 20s linear infinite;
+}*/
+.icon {
+  margin-top: 0px;
+  font-size: 150px;
+  float: left;
+  border-color: white;
+  color: white; }
+
+.iconHolder {
+  border-bottom: 1px solid #415d6e;
+  border-top: 1px solid #415d6e; }
 
 @-webkit-keyframes slide {
   from {
     background-position: 0 0; }
   to {
     background-position: -400px 0; } }
+
+@media screen and (max-width: 768px) {
+  .outterRing {
+    background-color: #233f53;
+    height: 300px;
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    font-Size: 20px;
+    padding: 25px;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in; }
+    .outterRing:hover {
+      background-color: #0d202c;
+      -webkit-transition: background-color 1s ease-out;
+      -moz-transition: background-color 1s ease-out;
+      -o-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
+  .innerRing {
+    height: 250px;
+    border-bottom: 1px solid #415d6e;
+    border-top: 1px solid #415d6e;
+    padding-right: 0px;
+    text-align: center;
+    font-Size: 17px;
+    margin-right: 80px; }
+  .icon {
+    display: none; } }

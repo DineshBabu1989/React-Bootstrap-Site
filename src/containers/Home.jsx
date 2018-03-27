@@ -8,7 +8,9 @@ render()
 return(
 <div> 
 <JumbotronFront />
+ 
 <Intro />
+
 </div>  
 );
 }
