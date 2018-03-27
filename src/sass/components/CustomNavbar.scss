@@ -71,6 +71,7 @@
 .navbar-default .navbar-nav .open .dropdown-menu {
     background-color:$themeColor;
     color:$hoverColor ;
+    border-radius:0px;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: $hoverColor ;

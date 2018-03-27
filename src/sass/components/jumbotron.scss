@@ -1,12 +1,12 @@
 @import "../Variables";
-
+@import "../mixins";
 //$themeColor 
 //$hoverColor 
 .jumbotron 
 {
-    background-image: url("../images/slide1.png");
+    background-image: url("../images/slide2.png");
     font-family: 'Abel', sans-serif;
-    color:#fff;
+    color:#333;
     padding-left: 100px;
     margin-bottom: 0px;
     height:350px;
@@ -17,6 +17,7 @@
 }
 .btn-primary {
     color: #fff;
+    border-radius:0px;
     background-color: #112a39;
     border-color:#4c86a3 ;
     margin-left: 10px;
@@ -24,22 +25,22 @@
     height: 50px;
     margin-top: 40px;
     font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    &:hover{
+        background-color:$hoverBlock;
+         color: #000;
+         background-color: #ededed;
+  
+         @include transition-out;
+   
+    }
 }
-.btn-primary:hover {
-    color: #000;
-    background-color: #ededed;
-    border-color: #ededed;
-    margin-left: 10px;
-    margin-top: 40px;
-    width:150px;
-    height: 50px;
-    font-family: 'Abel', sans-serif;
-}
+
 @media only screen and (max-width: 700px) {
  
     .jumbotron 
 {
-    background-image: url("../images/slide1.png");
+    background-image: url("../images/slide2.png");
     font-family: 'Abel', sans-serif;
     color:#fff;
     padding: 10px;
@@ -53,16 +54,18 @@
     width:150px;
     height: 50px;
     font-family: 'Abel', sans-serif;
+    font-size: 16px;
     margin-top: 8px;
+    &:hover{
+         background-color:$hoverBlock;
+         color: #000;
+         background-color: #ededed;
+  
+         @include transition-out;
+   
 }
-.btn-primary:hover {
-    color: #000;
-    background-color: #ededed;
-    border-color: #ededed;
-    margin-left: 0px;
-    width:150px;
-    height: 50px;
-    font-family: 'Abel', sans-serif;
-    margin-top: 8px;
-}
+    
+    
+    }
+
 }

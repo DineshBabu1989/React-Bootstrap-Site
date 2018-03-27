@@ -70,6 +70,7 @@
 .navbar-default .navbar-nav .open .dropdown-menu {
   background-color: #112a39 !important;
   color: #fff;
+  border-radius: 0px;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {

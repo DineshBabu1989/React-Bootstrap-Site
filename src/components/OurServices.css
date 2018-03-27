@@ -1,0 +1,41 @@
+/*
+$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$smallLine:#415d6e;
+*/
+.topGrid {
+  height: 550px;
+  background-color: #f7f7f7; }
+
+.columns {
+  background-color: #f7f7f7; }
+
+.rows {
+  height: 150px;
+  background-color: #112a39 !important;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.coltexts {
+  background-color: #f7f7f7;
+  height: 150px;
+  font-family: "Abel", sans-serif; }
+
+.coltext {
+  background-color: white;
+  height: 150px;
+  font-family: "Abel", sans-serif; }
+
+.colimg {
+  background-color: #333;
+  height: 150px;
+  font-family: "Abel", sans-serif; }
+
+.icon1 {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-left: 10px;
+  color: white; }

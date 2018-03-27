@@ -20,20 +20,20 @@ class CustomNavbar extends Component {
       <Navbar.Collapse>
         <Nav pullRight>
             <NavItem eventKey={1}  href="/" to="/">
-              Home
+              HOME
             </NavItem>
             <NavItem eventKey={2}  href="/About" to="/About">
-              About
+              ABOUT
             </NavItem>
             
-             <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
+             <NavDropdown eventKey={3} title="SERVICES" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1}>Action</MenuItem>
               <MenuItem eventKey={3.2}>Another action</MenuItem>
               <MenuItem eventKey={3.3}>Something else here</MenuItem>
               <MenuItem divider />
               <MenuItem eventKey={3.4}>Separated link</MenuItem>
              </NavDropdown>
-             <NavDropdown eventKey={3} title="Products" id="basic-nav-dropdown">
+             <NavDropdown eventKey={3} title="PRODUCTS" id="basic-nav-dropdown">
               <MenuItem eventKey={3.1}>Action</MenuItem>
               <MenuItem eventKey={3.2}>Another action</MenuItem>
               <MenuItem eventKey={3.3}>Something else here</MenuItem>
@@ -41,7 +41,7 @@ class CustomNavbar extends Component {
               <MenuItem eventKey={3.4}>Separated link</MenuItem>
             </NavDropdown>
           <NavItem eventKey={3} href="/news" to="/news">
-              Contact
+              CONTACT
           </NavItem>
         </Nav>
     </Navbar.Collapse>

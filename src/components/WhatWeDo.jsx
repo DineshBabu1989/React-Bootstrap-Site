@@ -42,7 +42,7 @@ const WhatWeDo = () =>{
         <h3 className ="title">Embedded and IoT</h3>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. 
     </Col>
-             </Fade>
+       </Fade>
   </Row>
 
 </Grid >
