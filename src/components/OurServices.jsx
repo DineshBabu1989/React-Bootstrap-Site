@@ -22,16 +22,8 @@ const OurServices = ()=>{
             <h1>Our Services</h1>
         </Row>
         <Row className ="titleRowContent">
-           We spealize in designing fully responsive web applications using modern day framworks.We are a leading service provider in the digital domain, an organization that aspires to drive digital transformation. With our expertise ranging from custom product development, enterprise mobility, UI/UX design, digital marketing, and e-commerce, to technologies such as AI, AR, VR, RPA, and more, we emerge as the one-stop destination for the entire IT needs of businesses. We provide futuristic digital transformation services that enable businesses to keep pace with the emerging trends.The key areas in which extend our services include
-            <ul>
-                <li>Web Applications</li>
-                 <li>E-commerce Application Development</li>
-                <li>Hybrid Mobile Applications</li>
-                 <li>Content Management System</li>
-                 <li>Web Hosting and Maintaince</li>
-                 <li>SEO </li>
-                 <li>Multimedia Design</li>
-            </ul>
+           We spealize in designing fully responsive web applications using modern day framworks.We are a leading service provider in the digital domain, an organization that aspires to drive digital transformation. With our expertise ranging from custom product development, enterprise mobility, UI/UX design, digital marketing, and e-commerce, to technologies such as AI, AR, VR, RPA, and more, we emerge as the one-stop destination for the entire IT needs of businesses. We provide futuristic digital transformation services that enable businesses to keep pace with the emerging trends.
+           
         </Row>
             
         

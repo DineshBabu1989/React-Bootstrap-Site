@@ -82,12 +82,15 @@ $smallLine:#415d6e;
     margin-left:10px;
     
 }
+
+
+
 @media (max-width: 767px)
 {
    .columnText{
     background-color:$bgColor;
     color:$textColor;
-    height:500px;
+    height:350px;
     font-family: $font;
     text-align:justify;
 } 
