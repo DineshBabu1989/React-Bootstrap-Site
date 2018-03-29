@@ -1,0 +1,91 @@
+@import "../Variables";
+@import "../mixins";
+/*
+$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$smallLine:#415d6e;
+*/
+.outterRing{ 
+    background-color:$Block;
+    height: 200px;
+    color:$hoverColor;
+    font-family: $font;
+    font-Size:20px;
+    padding:25px;
+    
+       @include transition-in;
+   
+    &:hover{
+        background-color:$hoverBlock;
+        //@include transition(color .1s ease);
+  
+         @include transition-out;
+   
+    }
+  
+}
+.innerRing{
+    height:150px;    
+    border-bottom: 1px solid $smallLine ;
+    border-top: 1px solid $smallLine ;
+    padding-right: 250px;
+    text-align: justify;
+    font-Size:17px;
+    margin-right: 80px;
+}
+/*
+.picRing{
+    height:150px;
+    border-radius: 100px;
+   //picture movement animation 
+    background: gray url(../images/intro.png) repeat 0 0;
+    background-size: 200px 150px;
+   -webkit-animation: slide 20s linear infinite;
+}*/
+.icon{
+    margin-top:0px;
+    font-size: 150px;
+    float:left;
+    border-color: white;
+    color:white;
+}
+.iconHolder
+{
+    
+    border-bottom: 1px solid $smallLine ;
+    border-top: 1px solid $smallLine ;
+}
+//picture movement animation 
+@-webkit-keyframes slide {
+    from { background-position: 0 0; } to   { background-position: -400px 0; }
+}
+//Mobile Css
+@media screen and (max-width: 768px) {
+    .outterRing{ 
+    background-color:$Block;
+    height: 300px;
+    color:$hoverColor;
+    font-family: $font;
+    font-Size:20px;
+    padding:25px;
+     @include transition-in;
+    &:hover{
+        background-color:$hoverBlock;
+          @include transition-out;
+    }
+    }
+    .innerRing{
+    height:250px;    
+    border-bottom: 1px solid $smallLine ;
+    border-top: 1px solid $smallLine ;
+    padding-right: 0px;
+    text-align: center;
+    font-Size:17px;
+    margin-right: 80px;
+    }
+    .icon{
+    display:none;
+}
+}

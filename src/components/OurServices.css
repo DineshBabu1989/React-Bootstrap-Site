@@ -1,0 +1,76 @@
+/*
+$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$smallLine:#415d6e;
+*/
+.topGrid {
+  height: 550px;
+  background-color: #f7f7f7; }
+
+.columns {
+  background-color: #f7f7f7; }
+
+.columnText {
+  background-color: #112a39 !important;
+  color: #fff;
+  height: 490px;
+  font-family: "Abel", sans-serif;
+  text-align: justify; }
+
+.titleRow {
+  margin: 10px;
+  margin-top: 15px;
+  border-left: 3px solid;
+  Padding-left: 15px;
+  padding-top: 0px; }
+
+.titleRowContent {
+  margin: 10px; }
+
+.rows {
+  height: 150px;
+  background-color: #112a39 !important;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #fff; }
+
+.coltexts {
+  background-color: #f7f7f7;
+  height: 150px;
+  font-family: "Abel", sans-serif; }
+
+.coltext {
+  background-color: white;
+  color: black;
+  height: 150px;
+  border-left: 1px solid black;
+  font-family: "Abel", sans-serif;
+  text-align: justify;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in; }
+  .coltext:hover {
+    background-color: #112a39 !important;
+    color: #fff;
+    border-left: 1px solid white;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out; }
+
+.icon1 {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-left: 10px; }
+
+@media (max-width: 767px) {
+  .columnText {
+    background-color: #112a39 !important;
+    color: #fff;
+    height: 350px;
+    font-family: "Abel", sans-serif;
+    text-align: justify; } }

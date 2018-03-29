@@ -1,34 +1,37 @@
 .jumbotron {
-  background-image: url("../images/slide1.png");
+  background-image: url("../images/slide2.png");
   font-family: 'Abel', sans-serif;
-  color: #fff;
+  color: #333;
   padding-left: 100px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  height: 350px; }
 
 .div {
   margin-bottom: 0px; }
 
 .btn-primary {
   color: #fff;
+  border-radius: 0px;
   background-color: #112a39;
-  border-color: none;
+  border-color: #4c86a3;
   margin-left: 10px;
   width: 150px;
   height: 50px;
-  font-family: 'Abel', sans-serif; }
-
-.btn-primary:hover {
-  color: #000;
-  background-color: #ededed;
-  border-color: #ededed;
-  margin-left: 10px;
-  width: 150px;
-  height: 50px;
-  font-family: 'Abel', sans-serif; }
+  margin-top: 40px;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px; }
+  .btn-primary:hover {
+    background-color: #0d202c;
+    color: #000;
+    background-color: #ededed;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out; }
 
 @media only screen and (max-width: 700px) {
   .jumbotron {
-    background-image: url("../images/slide1.png");
+    background-image: url("../images/slide2.png");
     font-family: 'Abel', sans-serif;
     color: #fff;
     padding: 10px;
@@ -41,13 +44,13 @@
     width: 150px;
     height: 50px;
     font-family: 'Abel', sans-serif;
+    font-size: 16px;
     margin-top: 8px; }
-  .btn-primary:hover {
-    color: #000;
-    background-color: #ededed;
-    border-color: #ededed;
-    margin-left: 0px;
-    width: 150px;
-    height: 50px;
-    font-family: 'Abel', sans-serif;
-    margin-top: 8px; } }
+    .btn-primary:hover {
+      background-color: #0d202c;
+      color: #000;
+      background-color: #ededed;
+      -webkit-transition: background-color 1s ease-out;
+      -moz-transition: background-color 1s ease-out;
+      -o-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; } }
