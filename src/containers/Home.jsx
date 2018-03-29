@@ -9,9 +9,9 @@ render()
 return(
 <div> 
 <JumbotronFront />
- 
 <Intro />
 <OurServices />
+
 </div>  
 );
 }

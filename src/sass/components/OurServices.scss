@@ -9,40 +9,86 @@ $smallLine:#415d6e;
 */
 .topGrid{
     height:550px;
-    background-color:#f7f7f7 ;
+    background-color:$pageColor ;
 }
 .columns{
    // height:500px;
-    background-color: #f7f7f7;
+    background-color: $pageColor;
 }
+//Title Column
+.columnText{
+    background-color:$bgColor;
+    color:$textColor;
+    height:490px;
+    font-family: $font;
+    text-align:justify;
+   
+}
+//Title Row
+.titleRow
+{
+    margin:10px;
+    margin-top:15px;
+    border-left:3px solid ;
+    Padding-left: 15px;
+    padding-top:0px;
+   
+}
+.titleRowContent
+{
+     margin:10px;
+    
+}
+
+
 .rows{
     height: 150px;
     background-color: $themeColor;
     margin-top:20px;
     margin-right:0px;
     margin-left:0px;
+    color:$hoverColor;
+
 }
 
 //list separate
 .coltexts{
-    background-color: #f7f7f7;
+    background-color: $pageColor;
     height: 150px;
-     font-family: $font;
+    font-family: $font;
 }
 // individual list items
 .coltext{
     background-color: white;
+    color:black;
     height: 150px;
-     font-family: $font;
-}
-.colimg{
-    background-color: #333;
-    height: 150px;
+    border-left:1px solid black;
     font-family: $font;
+    text-align: justify;
+    @include transition-in;
+    &:hover{
+        background-color:$bgColor ;
+        color:$textColor;
+         border-left:1px solid white;
+        @include transition-out;
+    }
+    
 }
+
 .icon1{
+    
     font-size: 70px;
     margin-top:40px;
     margin-left:10px;
-    color:white;
+    
+}
+@media (max-width: 767px)
+{
+   .columnText{
+    background-color:$bgColor;
+    color:$textColor;
+    height:500px;
+    font-family: $font;
+    text-align:justify;
+} 
 }
