@@ -5,13 +5,22 @@
 .jumbotron 
 {
     background-image: url("../images/slide2.png");
-    font-family: 'Abel', sans-serif;
+    font-family: $font1;
     color:#333;
     padding-left: 100px;
     margin-bottom: 0px;
     height:350px;
-    
+    h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+   // font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+    }
+    img {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
 }
+}
+    
 .div{
     margin-bottom: 0px;
 }
@@ -24,8 +33,8 @@
     width:150px;
     height: 50px;
     margin-top: 40px;
-    font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-family: $font;
+    font-size: 14px;
     &:hover{
         background-color:$hoverBlock;
          color: #000;
@@ -38,11 +47,11 @@
 
 @media only screen and (max-width: 700px) {
  
-    .jumbotron 
+.jumbotron 
 {
     background-image: url("../images/slide2.png");
-    font-family: 'Abel', sans-serif;
-    color:#fff;
+    //font-family: 'Abel', sans-serif;
+    color:#000;
     padding: 10px;
     margin-bottom: 0px;
 }
@@ -53,7 +62,7 @@
     margin-left: 0px;
     width:150px;
     height: 50px;
-    font-family: 'Abel', sans-serif;
+    //font-family: 'Abel', sans-serif;
     font-size: 16px;
     margin-top: 8px;
     &:hover{

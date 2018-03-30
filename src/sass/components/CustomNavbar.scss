@@ -8,8 +8,9 @@
  border-radius: 0;
  height:75px;
  padding:10px;
- font-family: 'Abel', sans-serif;
- font-size: 17px
+ font-family: $font;
+ font-size: 15px;
+ font-weight: 300;
 }
 //Navbar List 
 .navbar-default .navbar-nav > li{
@@ -24,21 +25,21 @@
   color: $hoverColor;
 }
 .navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover 
+{
     color: $hoverColor;
     background-color: transparent;
 }
-
 //Navbar Brand
 .navbar-default .navbar-brand {
   color: $hoverColor;
   float: left;
   height: 30px;
-    margin-top: 6px;
-  font-size: 21px;
-  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 6px;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
     //font-family: 'El Messiri', sans-serif;
-  font-weight: 400
+  font-weight: 300
 }
 
 .navbar-default .navbar-brand:focus, 

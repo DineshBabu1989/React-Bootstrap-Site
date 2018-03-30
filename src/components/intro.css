@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
 /*
 $themeColor : #112a39!important;
 $hoverColor :#fff;
@@ -6,10 +10,10 @@ $hoverBlock:#0d202c;
 $smallLine:#415d6e;
 */
 .outterRing {
-  background-color: #233f53;
+  background-color: #0d202c;
   height: 200px;
   color: #fff;
-  font-family: "Abel", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-Size: 20px;
   padding: 25px;
   -webkit-transition: background-color 1s ease-in;
@@ -17,7 +21,7 @@ $smallLine:#415d6e;
   -o-transition: background-color 1s ease-in;
   transition: background-color 1s ease-in; }
   .outterRing:hover {
-    background-color: #0d202c;
+    background-color: #233f53;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
@@ -25,12 +29,18 @@ $smallLine:#415d6e;
 
 .innerRing {
   height: 150px;
+  color: #fff;
   border-bottom: 1px solid #415d6e;
   border-top: 1px solid #415d6e;
-  padding-right: 250px;
-  text-align: justify;
+  padding-right: 50px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
   font-Size: 17px;
+  font-weight: 100;
   margin-right: 80px; }
+  .innerRing h1, .innerRing h2, .innerRing h3, .innerRing h4, .innerRing h5, .innerRing h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; }
 
 /*
 .picRing{
@@ -52,18 +62,12 @@ $smallLine:#415d6e;
   border-bottom: 1px solid #415d6e;
   border-top: 1px solid #415d6e; }
 
-@-webkit-keyframes slide {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: -400px 0; } }
-
 @media screen and (max-width: 768px) {
   .outterRing {
-    background-color: #233f53;
-    height: 300px;
+    background-color: #0d202c;
+    height: 330px;
     color: #fff;
-    font-family: "Abel", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-Size: 20px;
     padding: 25px;
     -webkit-transition: background-color 1s ease-in;
@@ -71,13 +75,13 @@ $smallLine:#415d6e;
     -o-transition: background-color 1s ease-in;
     transition: background-color 1s ease-in; }
     .outterRing:hover {
-      background-color: #0d202c;
+      background-color: #233f53;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
       transition: background-color 1s ease-out; }
   .innerRing {
-    height: 250px;
+    height: 280px;
     border-bottom: 1px solid #415d6e;
     border-top: 1px solid #415d6e;
     padding-right: 0px;

@@ -12,7 +12,7 @@ const OurServices = ()=>{
     
     return(
     <div>
-    <Grid fluid className="topGrid">
+    <Grid fluid className="outterGrid">
     <Grid>
    <Row>
    <Col xs={12} md={4} className="columns">
@@ -57,7 +57,7 @@ const OurServices = ()=>{
    <Row className="rows">
        <Col xs ={4} md={4}  ><FaUserPlus className = "icon1"/></Col>
         <Col xs ={8} md={8} className="coltext">
-        <h3>Content Management System</h3>
+        <h3>CMS</h3>
             Content Management Systems offer website owners a convenient way of modifying content on their site.
         </Col>
        </Row>

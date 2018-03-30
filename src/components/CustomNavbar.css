@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
 .navbar-default {
   background-color: #112a39 !important;
   margin-bottom: 0px;
@@ -5,8 +10,9 @@
   border-radius: 0;
   height: 75px;
   padding: 10px;
-  font-family: 'Abel', sans-serif;
-  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li {
@@ -34,9 +40,9 @@
   float: left;
   height: 30px;
   margin-top: 6px;
-  font-size: 21px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .navbar-default .navbar-brand:focus,

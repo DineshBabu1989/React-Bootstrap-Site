@@ -1,10 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
 .jumbotron {
   background-image: url("../images/slide2.png");
-  font-family: 'Abel', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
   padding-left: 100px;
   margin-bottom: 0px;
   height: 350px; }
+  .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; }
+  .jumbotron img {
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px); }
 
 .div {
   margin-bottom: 0px; }
@@ -18,8 +29,8 @@
   width: 150px;
   height: 50px;
   margin-top: 40px;
-  font-family: 'Abel', sans-serif;
-  font-size: 16px; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
   .btn-primary:hover {
     background-color: #0d202c;
     color: #000;
@@ -32,8 +43,7 @@
 @media only screen and (max-width: 700px) {
   .jumbotron {
     background-image: url("../images/slide2.png");
-    font-family: 'Abel', sans-serif;
-    color: #fff;
+    color: #000;
     padding: 10px;
     margin-bottom: 0px; }
   .btn-primary {
@@ -43,7 +53,6 @@
     margin-left: 0px;
     width: 150px;
     height: 50px;
-    font-family: 'Abel', sans-serif;
     font-size: 16px;
     margin-top: 8px; }
     .btn-primary:hover {
