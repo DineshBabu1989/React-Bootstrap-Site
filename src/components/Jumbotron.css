@@ -2,6 +2,21 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
+/*$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$textColorDark:#000;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+$buttonBorder :#4c86a3;
+$buttonColor:#112a39;
+$buttonHover:#ededed;
+*/
 .jumbotron {
   background-image: url("../images/slide2.png");
   font-family: "Lato", sans-serif;
@@ -10,15 +25,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
   height: 350px; }
   .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400; }
-  .jumbotron img {
-    -webkit-filter: blur(5px);
-    /* Safari 6.0 - 9.0 */
-    filter: blur(5px); }
-
-.div {
-  margin-bottom: 0px; }
 
 .btn-primary {
   color: #fff;
@@ -30,9 +38,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   margin-top: 40px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in; }
   .btn-primary:hover {
-    background-color: #0d202c;
     color: #000;
     background-color: #ededed;
     -webkit-transition: background-color 1s ease-out;
@@ -49,14 +60,17 @@ h1, h2, h3, h4, h5, h6 {
   .btn-primary {
     color: #fff;
     background-color: #112a39;
-    border-color: #234F72;
+    border-color: #4c86a3;
     margin-left: 0px;
     width: 150px;
     height: 50px;
     font-size: 16px;
-    margin-top: 8px; }
+    margin-top: 8px;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in; }
     .btn-primary:hover {
-      background-color: #0d202c;
       color: #000;
       background-color: #ededed;
       -webkit-transition: background-color 1s ease-out;

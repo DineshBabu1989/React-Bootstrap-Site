@@ -15,7 +15,8 @@ return(
 <Intro />
 <OurServices />
 <Subscribe/>
-<EmbeddedServices/>
+<OurServices />
+<Subscribe/>
 </div>  
 );
 }

@@ -7,7 +7,16 @@ $themeColor : #112a39!important;
 $hoverColor :#fff;
 $Block: #233f53;
 $hoverBlock:#0d202c;
-$smallLine:#415d6e;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$textColorDark:#000;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+$buttonBorder :#4c86a3;
+$buttonHover:#ededed;
+$buttonColor:#112a39;
 */
 .outterGrid {
   height: 530px;
@@ -41,7 +50,9 @@ $smallLine:#415d6e;
   margin-top: 20px;
   margin-right: 0px;
   margin-left: 0px;
-  color: #fff; }
+  color: #fff;
+  -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19); }
 
 .coltexts {
   background-color: #f7f7f7;
@@ -49,13 +60,15 @@ $smallLine:#415d6e;
   font-family: "Open Sans", sans-serif; }
 
 .coltext {
-  background-color: #f2f2f2;
+  background-color: #f7f7f7;
   color: black;
   height: 150px;
   font-size: 13px;
   font-weight: 100;
   font-family: "Open Sans", sans-serif;
   text-align: left;
+  -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
   -webkit-transition: background-color 1s ease-in;
   -moz-transition: background-color 1s ease-in;
   -o-transition: background-color 1s ease-in;

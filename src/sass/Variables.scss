@@ -4,13 +4,15 @@ $Block: #233f53;
 $hoverBlock:#0d202c;
 $font:'Open Sans', sans-serif;
 $textColor:#fff;
-$bgColor:#112a39!important;
+$textColorDark:#000;
 $pageColor:#f7f7f7;
 $smallLine:#415d6e;//line at the intro
 $font1: 'Lato', sans-serif;
-
+$buttonBorder :#4c86a3;
+$buttonHover:#ededed;
+$buttonColor:#112a39;
+// Fonts
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-   // font-family: 'Nanum Gothic', sans-serif;
   font-weight: 300;
 }

@@ -1,5 +1,7 @@
 import React,{ Component } from 'react';
 import { Grid, Row, Col, Glyphicon} from 'react-bootstrap';
+import './OurServices.css';
+/* import icons*/
 import MdPhonelink from 'react-icons/lib/md/phonelink';
 import MdDeveloperMode from 'react-icons/lib/md/developer-mode';
 import FaCartArrowDown from 'react-icons/lib/fa/cart-arrow-down';
@@ -7,15 +9,15 @@ import FaSearchPlus from 'react-icons/lib/fa/search-plus';
 import FaServer from 'react-icons/lib/fa/server';
 import FaUserPlus from 'react-icons/lib/fa/user-plus';
 
-import './OurServices.css';
+
 const OurServices = ()=>{
     
     return(
     <div>
     <Grid fluid className="outterGrid">
     <Grid>
-   <Row>
-   <Col xs={12} md={4} className="columns">
+    <Row>
+    <Col xs={12} md={4} className="columns">
     <Row className="rows">
        <Col xs ={12} md={12} className="columnText">
         <Row className ="titleRow">
@@ -24,7 +26,7 @@ const OurServices = ()=>{
         <Row className ="titleRowContent">
            We spealize in designing fully responsive web applications using modern day framworks.We are a leading service provider in the digital domain, an organization that aspires to drive digital transformation. With our expertise ranging from custom product development, enterprise mobility, UI/UX design, digital marketing, and e-commerce, to technologies such as AI, AR, VR, RPA, and more, we emerge as the one-stop destination for the entire IT needs of businesses. We provide futuristic digital transformation services that enable businesses to keep pace with the emerging trends.
            
-        </Row>
+           </Row>
             
         
         </Col>
