@@ -17,8 +17,8 @@ $smallLine:#415d6e;
   background-color: #f7f7f7; }
 
 .columnText {
-  background-color: #112a39 !important;
-  color: #fff;
+  background-color: #f7f7f7;
+  color: black;
   height: 490px;
   font-family: "Open Sans", sans-serif;
   text-align: justify;
@@ -79,8 +79,8 @@ $smallLine:#415d6e;
     height: 1440px;
     background-color: #f7f7f7; }
   .columnText {
-    background-color: #112a39 !important;
-    color: #fff;
+    background-color: #f7f7f7;
+    color: black;
     height: 380px;
     font-family: "Open Sans", sans-serif;
     text-align: justify; } }

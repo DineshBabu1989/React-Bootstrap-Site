@@ -5,7 +5,6 @@ h1, h2, h3, h4, h5, h6 {
 .baseGrid {
   height: 200px;
   background-color: transparent;
-  margin-bottom: 500px;
   color: #fff; }
 
 .subscribeText {
@@ -22,7 +21,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in; }
   .btn-primary2:hover {
     background-color: #0d202c;
     color: #000;
@@ -36,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
   .baseGrid {
     height: 350px;
     background-color: transparent;
-    margin-bottom: 500px;
     color: #fff; }
   .subscribeText {
     padding-top: 50px; }
@@ -51,7 +53,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 50px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    font-weight: 300; }
+    font-weight: 300;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in; }
     .btn-primary2:hover {
       background-color: #0d202c;
       color: #000;

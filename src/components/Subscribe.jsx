@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import {  Grid, Row, Col, Image, Button } from 'react-bootstrap';
 
 import'./Subscribe.css';
 const Subscribe = () => {
@@ -9,16 +9,18 @@ return(
 <div>
 <Grid fluid className ="baseGrid">
 <Grid>
+     
     <Row className="show-grid">
+   
     <Col xs={12} md={8} className ="subscribeText">
-      <h1> Subcribe Us - For Updates ,News & Offers</h1>
+      <h1> Subscribe Us - For Updates ,News & Offers</h1>
       <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
     </Col>
     <Col xs={12} md={4}>
       <Button  bsStyle="primary2">SUBSCRIBE</Button>
     </Col>
   </Row>
-    
+     
     
     
     

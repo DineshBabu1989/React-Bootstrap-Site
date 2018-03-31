@@ -10,7 +10,6 @@ $smallLine:#415d6e;
 .outterGrid{
     height:530px;
     background-color:$pageColor;
-
 }
 .columns{
    // height:500px;
@@ -18,8 +17,8 @@ $smallLine:#415d6e;
 }
 //Title Column
 .columnText{
-    background-color:$bgColor;
-    color:$textColor;
+    background-color:$pageColor;
+    color:black;
     height:490px;
     font-family: $font;
     text-align:justify;
@@ -50,7 +49,6 @@ $smallLine:#415d6e;
     margin-right:0px;
     margin-left:0px;
     color:$hoverColor;
-    //border-radius:100px;
 }
 
 //list separate
@@ -64,7 +62,6 @@ $smallLine:#415d6e;
     background-color: #f2f2f2;
     color:black;
     height: 150px;
-    //text-align:justify;
     font-size:13px;
     font-weight:100;
     font-family: $font;
@@ -97,8 +94,8 @@ $smallLine:#415d6e;
 }
     
     .columnText{
-    background-color:$bgColor;
-    color:$textColor;
+    background-color:$pageColor;
+    color:black;
     height:380px;
     font-family: $font;
     text-align:justify;

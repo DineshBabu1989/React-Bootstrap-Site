@@ -4,7 +4,7 @@
 .baseGrid{
     height:200px;
     background-color: transparent;
-    margin-bottom:500px;
+    //margin-bottom:500px;
     color: $hoverColor;
 
 }
@@ -23,6 +23,7 @@
     font-family: $font;
     font-size: 18px;
     font-weight: 300;
+    @include transition-in;
     &:hover{
         background-color:$hoverBlock;
          color: #000;
@@ -37,7 +38,7 @@
    .baseGrid{
     height:350px;
     background-color: transparent;
-    margin-bottom:500px;
+    //margin-bottom:500px;
     color: $hoverColor;
 
 }
@@ -56,11 +57,11 @@
     font-family: $font;
     font-size: 18px;
     font-weight: 300;
+    @include transition-in;
     &:hover{
         background-color:$hoverBlock;
          color: #000;
          background-color: #ededed;
-  
          @include transition-out;
    
     }
