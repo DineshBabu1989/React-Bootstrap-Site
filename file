@@ -1,0 +1,191 @@
+import React, { Component } from 'react'
+import { Carousel, Grid, Row, Col, Glyphicon,Images} from 'react-bootstrap';
+import "./tech.css";
+
+class Tech extends Component{
+ constructor(props) {
+    super(props);
+    this.state = {
+        details: [
+          {
+          id: 0,
+          heading: "React1.js",
+          image:"react",
+          text: "Front end JavaScript library for creating user interfaces",
+              
+          }, 
+          {
+          id: 1,
+          heading: "Redux.js",
+          image:"redux",
+          text: "State management tool for react applications,"
+          }
+                ]
+      }
+    
+  }
+    
+render(){
+     return(
+<div>
+  <div className = "techContainer container">
+      {/* Top Heading */}
+  <div className ="row">
+  <div className = "col-xs-12 col-md-12">
+        <div className = 'techHeading col-md-12'>
+            <h1>Technological Expertize</h1>
+        </div>
+  </div>
+  </div>
+      {/* technology item grid */}
+  <div className ="row">
+               
+      {this.state.details.map(function(detail,id){
+          console.log(detail);
+      }
+      )}
+        <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock" >
+        <img src={require('../images/'+this.state.details[0].image+'.png')} alt=''/>
+        <div class="overlay">
+        <div class="text"><h2>{this.state.details[0].heading}</h2>                   
+            <p>{this.state.details[0].text}</p>
+        </div>
+        </div>
+        </div>
+       </div>
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock" >
+        <img src={require('../images/'+this.state.details[1].image+'.png')} alt=''/>
+        <div class="overlay">
+        <div class="text"><h2>{this.state.details[1].heading}</h2>                   
+            <p>{this.state.details[1].text}</p>
+        </div>
+        </div>
+        </div>
+       </div>
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/node.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Node.js</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/Angular.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Angular.js</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/vue.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Vue.js</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/Cordova.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Cordova</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+      
+  </div>
+      
+   <div className ="row">
+      <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/rails.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Rails</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/mongo.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Mongo dB</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/mysql.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>MySql</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/jenkins.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Jenkins</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/bootstrap.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Bootstrap</h2>            
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div> 
+       <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
+        <div className = "list-pic-innerBlock">
+        <img src={require('../images/git.png')} alt=''/>
+        <div class="overlay">
+        <div class="text">
+            <h2>Git</h2>             
+            <p>Front end JavaScript library for creating user interfaces</p>
+        </div>
+        </div>
+        </div>
+      </div>  
+  </div> 
+      
+</div>
+</div>
+
+); 
+  }
+
+}
+export default Tech;
+  

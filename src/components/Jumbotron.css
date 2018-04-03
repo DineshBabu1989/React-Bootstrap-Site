@@ -37,7 +37,7 @@ $buttonHover:#ededed;
   width: 150px;
   height: 50px;
   margin-top: 40px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 14px;
   -webkit-transition: background-color 1s ease-in;
   -moz-transition: background-color 1s ease-in;

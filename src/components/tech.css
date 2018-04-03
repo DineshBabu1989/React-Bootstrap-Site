@@ -1,0 +1,50 @@
+/*colors*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.techContainer {
+  margin-bottom: 20px; }
+
+.techHeading {
+  color: #fff;
+  border-left: 3px solid #fff;
+  margin: 10px; }
+
+/*Individual elements & over lay effect inside each block */
+.list-pic {
+  height: 170px;
+  background-color: transparent;
+  list-style: none;
+  padding: 10px; }
+
+.list-pic-innerBlock {
+  height: 150px;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .list-pic-innerBlock:hover .overlay {
+    opacity: 0.85; }
+  .list-pic-innerBlock .overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 150px;
+    width: 90%;
+    opacity: 0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    background-color: #112a39 !important; }
+  .list-pic-innerBlock .text {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    text-align: left;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 15px; }
+    .list-pic-innerBlock .text h2 {
+      text-align: center; }

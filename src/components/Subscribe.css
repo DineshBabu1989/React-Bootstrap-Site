@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 80px;
   width: 200px;
   height: 50px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   -webkit-transition: background-color 1s ease-in;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
     width: 200px;
     height: 50px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 18px;
     font-weight: 300;
     -webkit-transition: background-color 1s ease-in;

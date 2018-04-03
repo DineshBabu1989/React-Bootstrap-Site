@@ -29,7 +29,7 @@ $buttonColor:#112a39;
   background-color: #f7f7f7;
   color: black;
   height: 490px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   text-align: justify;
   font-size: 14px;
   font-weight: 100; }
@@ -57,7 +57,7 @@ $buttonColor:#112a39;
 .coltexts {
   background-color: #f7f7f7;
   height: 150px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", Arial, sans-serif; }
 
 .coltext {
   background-color: #f7f7f7;
@@ -65,7 +65,7 @@ $buttonColor:#112a39;
   height: 150px;
   font-size: 13px;
   font-weight: 100;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   text-align: left;
   -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
   box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
@@ -95,5 +95,5 @@ $buttonColor:#112a39;
     background-color: #f7f7f7;
     color: black;
     height: 380px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Arial, sans-serif;
     text-align: justify; } }
