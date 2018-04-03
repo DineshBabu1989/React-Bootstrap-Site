@@ -5,11 +5,20 @@ $themeColor : #112a39!important;
 $hoverColor :#fff;
 $Block: #233f53;
 $hoverBlock:#0d202c;
-$smallLine:#415d6e;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$textColorDark:#000;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+$buttonBorder :#4c86a3;
+$buttonHover:#ededed;
+$buttonColor:#112a39;
 */
-.topGrid{
-    height:550px;
-    background-color:$pageColor ;
+.outterGrid{
+    height:530px;
+    background-color:$pageColor;
 }
 .columns{
    // height:500px;
@@ -17,11 +26,14 @@ $smallLine:#415d6e;
 }
 //Title Column
 .columnText{
-    background-color:$bgColor;
-    color:$textColor;
+    background-color:$pageColor;
+    color:black;
     height:490px;
     font-family: $font;
     text-align:justify;
+    font-size:14px;
+    font-weight:100;
+    
    
 }
 //Title Row
@@ -39,8 +51,6 @@ $smallLine:#415d6e;
      margin:10px;
     
 }
-
-
 .rows{
     height: 150px;
     background-color: $themeColor;
@@ -48,7 +58,7 @@ $smallLine:#415d6e;
     margin-right:0px;
     margin-left:0px;
     color:$hoverColor;
-
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
 }
 
 //list separate
@@ -59,22 +69,23 @@ $smallLine:#415d6e;
 }
 // individual list items
 .coltext{
-    background-color: white;
+    background-color: $pageColor;
     color:black;
     height: 150px;
-    border-left:1px solid black;
+    font-size:13px;
+    font-weight:100;
     font-family: $font;
-    text-align: justify;
+    text-align: left;
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
     @include transition-in;
     &:hover{
-        background-color:$bgColor ;
+        background-color:$themeColor ;
         color:$textColor;
-         border-left:1px solid white;
+        border-left:1px solid white;
         @include transition-out;
     }
     
 }
-
 .icon1{
     
     font-size: 70px;
@@ -87,10 +98,16 @@ $smallLine:#415d6e;
 
 @media (max-width: 767px)
 {
-   .columnText{
-    background-color:$bgColor;
-    color:$textColor;
-    height:350px;
+   .outterGrid{
+    height:1440px;
+    background-color:$pageColor;
+
+}
+    
+    .columnText{
+    background-color:$pageColor;
+    color:black;
+    height:380px;
     font-family: $font;
     text-align:justify;
 } 
