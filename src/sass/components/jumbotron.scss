@@ -28,11 +28,7 @@ $buttonHover:#ededed;
    font-family: $font1;
    font-weight: 400;
     }
-
-}
-    
-
-.btn-primary {
+    .btn-primary {
     color: $textColor;
     border-radius:0px;
     background-color: $buttonColor;
@@ -53,6 +49,10 @@ $buttonHover:#ededed;
     }
 }
 
+}
+    
+
+
 @media only screen and (max-width: 700px) {
  
 .jumbotron 
@@ -61,8 +61,7 @@ $buttonHover:#ededed;
     color:$textColorDark;
     padding: 10px;
     margin-bottom: 0px;
-}
-.btn-primary {
+    .btn-primary {
     color: $textColor;
     background-color:$buttonColor;
     border-color:$buttonBorder ;
@@ -81,5 +80,7 @@ $buttonHover:#ededed;
     
     
     }
+    }
+
 
 }
