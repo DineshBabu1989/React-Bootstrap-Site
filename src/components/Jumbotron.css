@@ -1,56 +1,78 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+/*$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$textColorDark:#000;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+$buttonBorder :#4c86a3;
+$buttonColor:#112a39;
+$buttonHover:#ededed;
+*/
 .jumbotron {
   background-image: url("../images/slide2.png");
-  font-family: 'Abel', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
   padding-left: 100px;
   margin-bottom: 0px;
   height: 350px; }
-
-.div {
-  margin-bottom: 0px; }
-
-.btn-primary {
-  color: #fff;
-  border-radius: 0px;
-  background-color: #112a39;
-  border-color: #4c86a3;
-  margin-left: 10px;
-  width: 150px;
-  height: 50px;
-  margin-top: 40px;
-  font-family: 'Abel', sans-serif;
-  font-size: 16px; }
-  .btn-primary:hover {
-    background-color: #0d202c;
-    color: #000;
-    background-color: #ededed;
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out; }
-
-@media only screen and (max-width: 700px) {
-  .jumbotron {
-    background-image: url("../images/slide2.png");
-    font-family: 'Abel', sans-serif;
+  .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400; }
+  .jumbotron .btn-primary {
     color: #fff;
-    padding: 10px;
-    margin-bottom: 0px; }
-  .btn-primary {
-    color: #fff;
+    border-radius: 0px;
     background-color: #112a39;
-    border-color: #234F72;
-    margin-left: 0px;
+    border-color: #4c86a3;
+    margin-left: 10px;
     width: 150px;
     height: 50px;
-    font-family: 'Abel', sans-serif;
-    font-size: 16px;
-    margin-top: 8px; }
-    .btn-primary:hover {
-      background-color: #0d202c;
+    margin-top: 40px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in; }
+    .jumbotron .btn-primary:hover {
       color: #000;
       background-color: #ededed;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
-      transition: background-color 1s ease-out; } }
+      transition: background-color 1s ease-out; }
+
+@media only screen and (max-width: 700px) {
+  .jumbotron {
+    background-image: url("../images/slide2.png");
+    color: #000;
+    padding: 10px;
+    margin-bottom: 0px; }
+    .jumbotron .btn-primary {
+      color: #fff;
+      background-color: #112a39;
+      border-color: #4c86a3;
+      margin-left: 0px;
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+      margin-top: 8px;
+      -webkit-transition: background-color 1s ease-in;
+      -moz-transition: background-color 1s ease-in;
+      -o-transition: background-color 1s ease-in;
+      transition: background-color 1s ease-in; }
+      .jumbotron .btn-primary:hover {
+        color: #000;
+        background-color: #ededed;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out; } }

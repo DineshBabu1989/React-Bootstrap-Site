@@ -1,4 +1,18 @@
 @import "../Variables";
+@import "../mixins";
+/*$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+*/
+
+
 //NavBar 
 
 .navbar-default  {
@@ -8,8 +22,9 @@
  border-radius: 0;
  height:75px;
  padding:10px;
- font-family: 'Abel', sans-serif;
- font-size: 17px
+ font-family: $font;
+ font-size: 14px;
+ font-weight: 300;
 }
 //Navbar List 
 .navbar-default .navbar-nav > li{
@@ -24,21 +39,19 @@
   color: $hoverColor;
 }
 .navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover 
+{
     color: $hoverColor;
     background-color: transparent;
 }
-
 //Navbar Brand
 .navbar-default .navbar-brand {
   color: $hoverColor;
   float: left;
   height: 30px;
-    margin-top: 6px;
-  font-size: 21px;
-  font-family: 'Josefin Sans', sans-serif;
-    //font-family: 'El Messiri', sans-serif;
-  font-weight: 400
+  margin-top: 6px;
+  font-size: 23px;
+  font-family:$font1
 }
 
 .navbar-default .navbar-brand:focus, 

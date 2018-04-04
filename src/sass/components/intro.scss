@@ -8,7 +8,7 @@ $hoverBlock:#0d202c;
 $smallLine:#415d6e;
 */
 .outterRing{ 
-    background-color:$Block;
+    background-color:$hoverBlock;
     height: 200px;
     color:$hoverColor;
     font-family: $font;
@@ -18,7 +18,7 @@ $smallLine:#415d6e;
        @include transition-in;
    
     &:hover{
-        background-color:$hoverBlock;
+        background-color:$Block;;
         //@include transition(color .1s ease);
   
          @include transition-out;
@@ -28,12 +28,19 @@ $smallLine:#415d6e;
 }
 .innerRing{
     height:150px;    
+    color:$hoverColor;
     border-bottom: 1px solid $smallLine ;
     border-top: 1px solid $smallLine ;
-    padding-right: 250px;
-    text-align: justify;
+    padding-right: 50px;
+    text-align: left;
+    font-family: $font;
     font-Size:17px;
+    font-weight: 100;
     margin-right: 80px;
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    }
 }
 /*
 .picRing{
@@ -57,27 +64,24 @@ $smallLine:#415d6e;
     border-bottom: 1px solid $smallLine ;
     border-top: 1px solid $smallLine ;
 }
-//picture movement animation 
-@-webkit-keyframes slide {
-    from { background-position: 0 0; } to   { background-position: -400px 0; }
-}
+
 //Mobile Css
 @media screen and (max-width: 768px) {
     .outterRing{ 
-    background-color:$Block;
-    height: 300px;
+    background-color:$hoverBlock;
+    height: 330px;
     color:$hoverColor;
     font-family: $font;
     font-Size:20px;
     padding:25px;
      @include transition-in;
     &:hover{
-        background-color:$hoverBlock;
+        background-color:$Block;
           @include transition-out;
     }
     }
     .innerRing{
-    height:250px;    
+    height:280px;    
     border-bottom: 1px solid $smallLine ;
     border-top: 1px solid $smallLine ;
     padding-right: 0px;

@@ -13,11 +13,9 @@ const Intro = () => {
     <Grid>
     <Row className="show-grid">
     <Col xs={12} md={9} className = "innerRing">
-     <h2>We are a Web and Electronics Solutions provider</h2> 
+     <h1>We are a web and electronics solutions provider</h1> 
       We cater to our clients with hand crafted Web & Mobile Apps using state of the art 
-     technologies.Our focus lies in creating visual wonders that provide 
-        high end 
-     functionality in all spheres. 
+     technologies.Our focus lies in creating visual wonders that provide high end functionality in all spheres. 
     </Col>
     <Col xs={12} md={2} className ="iconHolder">
     

@@ -1,3 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+/*$themeColor : #112a39!important;
+$hoverColor :#fff;
+$Block: #233f53;
+$hoverBlock:#0d202c;
+$font:'Open Sans', sans-serif;
+$textColor:#fff;
+$bgColor:#112a39!important;
+$pageColor:#f7f7f7;
+$smallLine:#415d6e;//line at the intro
+$font1: 'Lato', sans-serif;
+*/
 .navbar-default {
   background-color: #112a39 !important;
   margin-bottom: 0px;
@@ -5,8 +21,9 @@
   border-radius: 0;
   height: 75px;
   padding: 10px;
-  font-family: 'Abel', sans-serif;
-  font-size: 17px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li {
@@ -34,9 +51,8 @@
   float: left;
   height: 30px;
   margin-top: 6px;
-  font-size: 21px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-size: 23px;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-default .navbar-brand:focus,

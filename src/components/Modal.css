@@ -1,0 +1,35 @@
+/*colors*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.modal-content {
+  border-radius: 0px; }
+  .modal-content .btn-modal {
+    background-color: #112a39;
+    color: #fff;
+    border-radius: 0px;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in; }
+    .modal-content .btn-modal:hover {
+      color: #000;
+      background-color: #ededed;
+      -webkit-transition: background-color 1s ease-out;
+      -moz-transition: background-color 1s ease-out;
+      -o-transition: background-color 1s ease-out;
+      transition: background-color 1s ease-out; }
+  .modal-content h1, .modal-content h2, .modal-content h3 {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+  padding-top: 5px;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: justify; }
