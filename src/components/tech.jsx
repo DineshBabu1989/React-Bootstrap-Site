@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Carousel, Grid, Row, Col, Glyphicon,Images,Modal,Button} from 'react-bootstrap';
+import ModalItem from './Modal';
 import "./tech.css";
 
 class Tech extends Component{
@@ -11,8 +12,9 @@ class Tech extends Component{
           id: 0,
           heading: "React.js",
           image:"react",
+          imageLarge:"reactLarge",
           text: "Front end JavaScript library based on virtual DOM",
-              
+          content: "React is a front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it"  
           }, 
           {
           id: 1,
@@ -86,33 +88,22 @@ class Tech extends Component{
        active: 1
     }
        this.handleClose = this.handleClose.bind(this);
+       this.handleClick = this.handleClick.bind(this);
+       this.renderList =  this.renderList.bind(this);
   }
 
 handleClose() {
     this.setState({ show: false });
-  }
-handleClick = (param) => (e) => { 
-   this.setState({ active: param});
-   this.setState({ show: true });
-} 
-  
-render(){
-return(
-  <div>
-  <div className = "techContainer container">
-          {/* Top Heading */}
-      <div className ="row">
-      <div className = "col-xs-12 col-md-12">
-      <div className = 'techHeading col-md-12'>
-      <h1>Technological Expertize</h1>
-      </div>
-      </div>
-      </div>
-      {/* technology item grid */}
-  <div className ="row" onClick={this.handleShow} >       
-      {/* {this.state.details.map(function(details,id){ 
-        return(
-        <div className ="list-pic col-xs-6 col-md-4 col-lg-2" key={details.id} onClick= this.handleClick(details.id)>
+  }   
+handleClick (id) { 
+    this.setState({ active: id});
+    this.setState({ show: true});
+}    
+/* individual list item */
+renderList(details,id){
+    return(
+        <div className ="list-pic col-xs-6 col-md-4 col-lg-2" key={details.id}
+        onClick={() => this.handleClick(details.id)}>
         <div className = "list-pic-innerBlock" >
         <img src={require('../images/'+details.image+'.png')} alt=''/>
         <div class="overlay">
@@ -121,153 +112,38 @@ return(
         <p>{details.text}</p>
         </div>
         </div>
-        </div>
-                
-       </div>
-        );   
-      }
-      )}*/}
-      <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[0].id)} >
-        <img src={require('../images/'+this.state.details[0].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[0].heading}</h2>                   
-            <p>{this.state.details[0].text}</p>
-        </div>
-        </div>
-        </div>
+        </div>      
+        </div>);
+}   
+render(){
+return(
+  <div>
+      <div className = "techContainer container">
+      {/* Top Heading */}
+      <div className ="row">
+      <div className = "col-xs-12 col-md-12">
+      <div className = 'techHeading col-md-12'>
+      <h1>Technological Expertize</h1>
       </div>
-      <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[1].id)} >
-        <img src={require('../images/'+this.state.details[1].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[1].heading}</h2>                   
-            <p>{this.state.details[1].text}</p>
-        </div>
-        </div>
-        </div>
+      </div>
+      </div>
+      
+      {/* technology item  list grid */} 
+      
+      <div className ="row">       
+      {this.state.details.map(this.renderList)}
+      </div> 
+          
+      <ModalItem 
+      open  =  {this.state.show} 
+      close =  {this.handleClose}
+      title =  {this.state.details[this.state.active].heading}
+      content ={this.state.details[this.state.active].content}
+      banner = {this.state.details[this.state.active].image}
+          />
+          
      </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[2].id)} >
-        <img src={require('../images/'+this.state.details[2].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[2].heading}</h2>                   
-            <p>{this.state.details[2].text}</p>
-        </div>
-        </div>
-        </div>
      </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[3].id)} >
-        <img src={require('../images/'+this.state.details[3].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[3].heading}</h2>                   
-            <p>{this.state.details[3].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[4].id)} >
-        <img src={require('../images/'+this.state.details[4].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[4].heading}</h2>                   
-            <p>{this.state.details[4].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[5].id)} >
-        <img src={require('../images/'+this.state.details[5].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[5].heading}</h2>                   
-            <p>{this.state.details[5].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[6].id)} >
-        <img src={require('../images/'+this.state.details[6].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[6].heading}</h2>                   
-            <p>{this.state.details[6].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[7].id)} >
-        <img src={require('../images/'+this.state.details[7].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[7].heading}</h2>                   
-            <p>{this.state.details[7].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[8].id)} >
-        <img src={require('../images/'+this.state.details[8].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[8].heading}</h2>                   
-            <p>{this.state.details[8].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[9].id)} >
-        <img src={require('../images/'+this.state.details[9].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[9].heading}</h2>                   
-            <p>{this.state.details[9].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[10].id)} >
-        <img src={require('../images/'+this.state.details[10].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[10].heading}</h2>                   
-            <p>{this.state.details[10].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-     <div className ="list-pic col-xs-6 col-md-4 col-lg-2">
-        <div className = "list-pic-innerBlock" onClick={this.handleClick(this.state.details[11].id)} >
-        <img src={require('../images/'+this.state.details[11].image+'.png')} alt=''/>
-        <div class="overlay">
-        <div class="text"><h2>{this.state.details[11].heading}</h2>                   
-            <p>{this.state.details[11].text}</p>
-        </div>
-        </div>
-        </div>
-     </div>
-  </div> 
- {/* <button onClick={this.handleClick('Parameter')}></button> */}
- {/*Modal begins here*/}
- <div className="static-modal">
-  <Modal show={this.state.show} onHide={this.handleClose} >
-    <Modal.Header>
-    <Modal.Title>{this.state.details[this.state.active].heading}</Modal.Title>
-    </Modal.Header>
-    <Modal.Body>{this.state.details[this.state.active].text}
-    <div>
-       <img src={require('../images/'+this.state.details[this.state.active].image+'.png')} alt=''/> 
-    </div>
-    </Modal.Body>
-    <Modal.Footer>
-    <Button onClick={this.handleClose}>Close</Button>
-    </Modal.Footer>
-  </Modal>
- </div>
-{/*Modal ends here*/}
-  </div>
-  </div>
 
 ); 
 }
@@ -275,3 +151,4 @@ return(
 }
 export default Tech;
   
+
