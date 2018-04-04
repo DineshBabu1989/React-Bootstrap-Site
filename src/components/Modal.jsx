@@ -10,7 +10,6 @@ const ModalItem =(props) =>
     <Modal.Body>
     <h3>{props.title}</h3>
     <p>{props.content}</p>
-    <p>{props.banner}</p>
     </Modal.Body>
     <Modal.Footer>
     <Button className ="btn-modal" onClick={props.close}>Close</Button>
