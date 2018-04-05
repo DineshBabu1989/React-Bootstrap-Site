@@ -4,12 +4,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
 .techContainer {
-  margin-bottom: 20px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .techHeading {
   color: #fff;
   border-left: 3px solid #fff;
-  margin: 10px; }
+  margin: 15px;
+  margin-bottom: 30px; }
 
 /*Individual elements & over lay effect inside each block */
 .list-pic {
@@ -21,6 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 .list-pic-innerBlock {
   height: 150px;
   background-color: #fff;
+  -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px; }
@@ -38,7 +42,9 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: .5s ease;
     -o-transition: .5s ease;
     transition: .5s ease;
-    background-color: #112a39 !important; }
+    background-color: #112a39 !important;
+    -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19); }
   .list-pic-innerBlock .text {
     color: #fff;
     font-size: 12px;

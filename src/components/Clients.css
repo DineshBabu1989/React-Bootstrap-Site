@@ -1,0 +1,41 @@
+/*colors*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.client-style .container-fluid {
+  background-color: #f7f7f7;
+  background-image: url("../images/featurebg.png");
+  background-repeat: no-repeat center; }
+
+.client-style .container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px; }
+
+.client-style .title .row {
+  color: #000;
+  border-left: 3px solid black;
+  margin: 15px;
+  padding-left: 15px; }
+
+.client-style .title .content {
+  padding: 15px;
+  padding-top: 0px;
+  text-align: justify;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 15px; }
+
+.client-style .grid {
+  background-color: none; }
+  .client-style .grid .item {
+    padding: 10px; }
+    .client-style .grid .item .itemContent {
+      background-color: white;
+      text-align: center; }
+
+.img-responsive, .thumbnail a > img, .thumbnail > img {
+  display: block center;
+  max-width: 100%;
+  height: auto;
+  margin: auto; }

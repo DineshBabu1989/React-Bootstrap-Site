@@ -6,6 +6,7 @@ import Subscribe from '../components/Subscribe';
 import EmbeddedServices from '../components/EmbeddedServices';
 import OurEmbeddedServices from '../components/OurEmbeddedServices';
 import Tech from '../components/tech';
+import Clients from '../components/Clients';
 import './Home.css';
 class Home extends Component 
 {
@@ -19,7 +20,7 @@ return(
 <Subscribe/>
 <OurEmbeddedServices />
 <Tech /> 
-<OurEmbeddedServices />
+<Clients />
 </div>  
 );
 }

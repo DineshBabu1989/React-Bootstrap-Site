@@ -18,7 +18,7 @@ const OurServices = ()=>{
     <Grid>
     <Row>
     <Col xs={12} md={4} className="columns">
-    <Row className="rows">
+    <Row className="rowsTile">
        <Col xs ={12} md={12} className="columnText">
         <Row className ="titleRow">
             <h1>Software Services</h1>
