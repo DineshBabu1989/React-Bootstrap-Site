@@ -1,0 +1,52 @@
+@import "../Colors";
+@import "../Fonts";
+
+.client-style{
+    
+    .container-fluid{
+        background-color: $pageColor;
+        background-image: url("../images/featurebg.png");
+        background-repeat: no-repeat center;
+    }
+    .container{
+        margin-top:50px;
+        margin-bottom:50px;
+        padding:15px;
+    }
+    .title{
+        
+        .row{
+            color:$textColorDark;
+            border-left: 3px solid black; 
+            margin:15px;
+            padding-left:15px;
+            
+        }
+        .content{
+            padding:15px;
+            padding-top:0px;
+            text-align: justify;
+            font-family: $font;
+            font-size:15px;
+        }
+       
+    }
+    .grid {
+            background-color:none;
+            .item{
+                  padding:10px;
+                
+                 .itemContent{
+                  background-color:white;
+                  text-align: center;
+                  }
+            
+            }
+     }
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block center;
+    max-width: 100%;
+    height: auto;
+    margin:auto;
+}

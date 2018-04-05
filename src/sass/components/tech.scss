@@ -1,12 +1,15 @@
 @import "../Colors";
 @import "../Fonts";
 .techContainer{
-    margin-bottom: 20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    //margin-bottom: 20px;
 }
 .techHeading{
     color:$textColorLight;
     border-left:3px solid $textColorLight;
-    margin: 10px;
+    margin: 15px;
+    margin-bottom: 30px;
 }
 /*Individual elements & over lay effect inside each block */ 
 .list-pic{
@@ -20,6 +23,7 @@
 {
     height:150px;
     background-color:$hoverColor;
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
     text-align: center;
     padding-top:25px;
     padding-bottom: 25px;
@@ -37,6 +41,7 @@
       opacity: 0;
       transition: .5s ease;
       background-color:$themeColor;
+      box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
              }
     .text {
           color: $textColorLight;

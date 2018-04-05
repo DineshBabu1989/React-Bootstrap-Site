@@ -1,34 +1,19 @@
 @import "../Variables";
 @import "../mixins";
-/*
-$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$font:'Open Sans', sans-serif;
-$textColor:#fff;
-$textColorDark:#000;
-$bgColor:#112a39!important;
-$pageColor:#f7f7f7;
-$smallLine:#415d6e;//line at the intro
-$font1: 'Lato', sans-serif;
-$buttonBorder :#4c86a3;
-$buttonHover:#ededed;
-$buttonColor:#112a39;
-*/
+
 .outterGrid{
-    height:530px;
     background-color:$pageColor;
+    background-image: url("../images/featurebg.png");
+    background-repeat: no-repeat center;
 }
 .columns{
-   // height:500px;
-    background-color: $pageColor;
+    margin-top:50px;
+    margin-bottom:70px;
+    background-color: transparent;
 }
-//Title Column
 .columnText{
-    background-color:$pageColor;
+    background-color: transparent;
     color:black;
-    height:490px;
     font-family: $font;
     text-align:justify;
     font-size:14px;
@@ -40,7 +25,7 @@ $buttonColor:#112a39;
 .titleRow
 {
     margin:10px;
-    margin-top:15px;
+    margin-top:25px;
     border-left:3px solid ;
     Padding-left: 15px;
     padding-top:0px;
@@ -51,23 +36,22 @@ $buttonColor:#112a39;
      margin:10px;
     
 }
+.rowsTile{
+    background-color: transparent;
+}
 .rows{
-    height: 150px;
     background-color: $themeColor;
     margin-top:20px;
     margin-right:0px;
     margin-left:0px;
     color:$hoverColor;
-    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
 }
 
 //list separate
 .coltexts{
     background-color: $pageColor;
-    height: 150px;
     font-family: $font;
 }
-// individual list items
 .coltext{
     background-color: $pageColor;
     color:black;
@@ -99,15 +83,13 @@ $buttonColor:#112a39;
 @media (max-width: 767px)
 {
    .outterGrid{
-    height:1440px;
     background-color:$pageColor;
 
 }
     
     .columnText{
-    background-color:$pageColor;
+    background-color:none;
     color:black;
-    height:380px;
     font-family: $font;
     text-align:justify;
 } 
