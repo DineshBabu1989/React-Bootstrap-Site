@@ -81,7 +81,7 @@ class Clients extends Component{
             <div className = "container">
             <div className = "title col-sm-12 col-md-3">
             <div className ="row"><h1>Clients</h1> </div>
-            <div className ="content">It is primarily used for source code management in software dev.but it can be used to keep track of changes in set of files</div>
+            <div className ="content">It is primarily used for source code management in software dev.but it can be used to keep track changes in set of files</div>
             </div>
             <div className = "grid col-sm-12 col-md-9">
             {this.state.clientDetails.map(this.renderItem)}
