@@ -10,10 +10,10 @@ const Footer = () => {
     return(
     <div>
        <div className = "footer-style">
-       
        <div className = "container-fluid">
-           <div className ="social row">
-           <div className =" container">
+       {/*footer headline*/}
+       <div className ="social row">
+       <div className =" container">
        <div className = " social-links-col-msg col-sm-12 col-md-6">
        <p className ="footer-welcome">Get Connected with us on social network !</p> </div>
        <div className = "social-links-col-links col-sm-12 col-md-6 text-center">
@@ -25,8 +25,8 @@ const Footer = () => {
        </ul>
       </div>
       </div> 
-           </div>
-       
+      </div>
+       {/*footer main area*/}
        <div className ="row">
        <div className = "container">
        <div className ="row">
@@ -52,7 +52,7 @@ const Footer = () => {
         <p> <a href="#!">Products</a></p>
         <p> <a href="#!">Training</a></p>
         <p> <a href="#!">Technology</a></p>
-       </div>
+        </div>
        <div className = "footer-column col-sm-12 col-md-3">
        <h3><strong>Contact</strong></h3> 
         <hr className="underLine"/>
@@ -72,6 +72,7 @@ const Footer = () => {
        </div>
        </div>
        </div>
+       {/*footer bottom*/}
        <div className ="row">
        <div className = "footer-bottom text-center-fluid">
         © 2018 Copyright:
