@@ -2,21 +2,13 @@
 /*primary colors */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
-/*$themeColor : #1c2331;
-$themeDark  : darken($themeColor,2%);
-$pageColor  : #f7f7f7;
-$decorativeColor: #f5b929;
-$linkColor:#bfbfbf;
-$textColorLight:#fff;
-$textColorDark:#fff;
-$smallLine:lighten(#1c2331, 40% );*/
 .outterRing {
   background-color: #1c2331;
-  height: 200px;
   color: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-Size: 20px;
   padding: 25px;
   -webkit-transition: background-color 1s ease-in;
@@ -24,44 +16,41 @@ $smallLine:lighten(#1c2331, 40% );*/
   -o-transition: background-color 1s ease-in;
   transition: background-color 1s ease-in; }
   .outterRing:hover {
-    background-color: #415172;
+    background-color: #2f3a51;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
     transition: background-color 1s ease-out; }
 
 .innerRing {
-  height: 150px;
   color: #fff;
-  border-bottom: 1px solid #6d82ac;
-  border-top: 1px solid #6d82ac;
+  border-bottom: 1px solid #f5b929;
+  border-top: 1px solid #f5b929;
   padding-right: 50px;
+  padding-bottom: 32px;
   text-align: left;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-Size: 17px;
   font-weight: 100;
   margin-right: 80px; }
   .innerRing h1, .innerRing h2, .innerRing h3, .innerRing h4, .innerRing h5, .innerRing h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 300; }
+    font-family: "Lato", sans-serif; }
 
 .icon {
   margin-top: 0px;
   font-size: 150px;
   float: left;
-  border-color: white;
-  color: white; }
+  color: #fff; }
 
 .iconHolder {
-  border-bottom: 1px solid #6d82ac;
-  border-top: 1px solid #6d82ac; }
+  border-bottom: 1px solid #f5b929;
+  border-top: 1px solid #f5b929; }
 
 @media screen and (max-width: 768px) {
   .outterRing {
-    background-color: #161c27;
-    height: 330px;
+    background-color: #1c2331;
     color: #fff;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-Size: 20px;
     padding: 25px;
     -webkit-transition: background-color 1s ease-in;
@@ -69,18 +58,20 @@ $smallLine:lighten(#1c2331, 40% );*/
     -o-transition: background-color 1s ease-in;
     transition: background-color 1s ease-in; }
     .outterRing:hover {
-      background-color: #1c2331;
+      background-color: #2f3a51;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
       transition: background-color 1s ease-out; }
   .innerRing {
-    height: 280px;
-    border-bottom: 1px solid #6d82ac;
-    border-top: 1px solid #6d82ac;
+    border-bottom: 1px solid #f5b929;
+    border-top: 1px solid #f5b929;
     padding-right: 0px;
     text-align: center;
     font-Size: 17px;
     margin-right: 80px; }
   .icon {
-    display: none; } }
+    display: none; }
+  .iconHolder {
+    border-bottom: none;
+    border-top: none; } }

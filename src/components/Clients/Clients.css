@@ -1,11 +1,13 @@
 /*colors*/
+/*primary colors */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
 .client-style .container-fluid {
   background-color: #f7f7f7;
-  background-image: url("../images/featurebg.png");
+  background-image: url("../../images/featurebg.png");
   background-repeat: no-repeat center; }
 
 .client-style .container {
@@ -14,16 +16,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px; }
 
 .client-style .title .row {
-  color: #000;
-  border-left: 3px solid black;
+  color: #696969;
+  border-left: 3px solid #f5b929;
   margin: 15px;
   padding-left: 15px; }
 
 .client-style .title .content {
   padding: 15px;
   padding-top: 0px;
-  text-align: justify;
-  font-family: "Open Sans", Arial, sans-serif;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px; }
 
 .client-style .grid {
@@ -31,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   .client-style .grid .item {
     padding: 10px; }
     .client-style .grid .item .itemContent {
-      background-color: white;
+      background-color: #f7f7f7;
       text-align: center; }
 
 .img-responsive, .thumbnail a > img, .thumbnail > img {

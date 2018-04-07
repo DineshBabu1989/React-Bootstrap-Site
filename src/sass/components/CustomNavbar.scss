@@ -1,20 +1,6 @@
-@import "../Variables";
 @import "../mixins";
-/*$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$font:'Open Sans', sans-serif;
-$textColor:#fff;
-$bgColor:#112a39!important;
-$pageColor:#f7f7f7;
-$smallLine:#415d6e;//line at the intro
-$font1: 'Lato', sans-serif;
-*/
-
-
-//NavBar 
-
+@import "../colors";
+@import "../fonts";
 .navbar-default  {
  background-color: $themeColor;
  margin-bottom: 0px;
@@ -28,20 +14,20 @@ $font1: 'Lato', sans-serif;
 }
 //Navbar List 
 .navbar-default .navbar-nav > li{
-  color:$hoverColor ;
+  color:$textColorLight ;
 }
 .navbar-default .navbar-nav > li:hover {
-    color:$hoverColor;
+    color:$textColorLight;
     background-color: transparent;
-    border-bottom: 3px solid $hoverColor;
+    border-bottom: 3px solid $decorativeColor;
 }
 .navbar-default .navbar-nav > li > a {
-  color: $hoverColor;
+  color: $textColorLight;
 }
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover 
 {
-    color: $hoverColor;
+    color: $textColorLight;
     background-color: transparent;
 }
 //Navbar Brand
@@ -51,21 +37,21 @@ $font1: 'Lato', sans-serif;
   height: 30px;
   margin-top: 6px;
   font-size: 23px;
-  font-family:$font1
+  font-family:$fontHighLight;
 }
 
 .navbar-default .navbar-brand:focus, 
 .navbar-default .navbar-brand:hover {
-  color:$hoverColor ;
+  color:$textColorLight ;
   background-color: transparent;
 }
 
 //Toggle Button 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: $hoverColor;
+  background-color: $textColorLight;
 }
 .navbar-default .navbar-toggle {
-  border-color: $hoverColor;
+  border-color: $decorativeColor;
 }
 .navbar-default .navbar-toggle:focus, 
 .navbar-default .navbar-toggle:hover {
@@ -76,41 +62,44 @@ $font1: 'Lato', sans-serif;
 .navbar-default .navbar-nav>.open>a, 
 .navbar-default .navbar-nav>.open>a:focus, 
 .navbar-default .navbar-nav>.open>a:hover {
-    color: $hoverColor  ;
+    color: $textColorLight  ;
     background-color: transparent;
-    border-bottom: 3px solid $hoverColor ;
+    border-bottom: 3px solid $decorativeColor ;
 }
+
 /* Over writting Bootstrap Site for link color on drop down*/
 .navbar-default .navbar-nav .open .dropdown-menu {
     background-color:$themeColor;
-    color:$hoverColor ;
+    color:$textColorLight ;
     border-radius:0px;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: $hoverColor ;
+    color: $textColorLight ;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: $hoverColor ;
+    color: $textColorLight ;
     background-color: transparent;
-    border-bottom: 3px solid $hoverColor ;
+    border-bottom: 3px solid $decorativeColor ;
     
 }
 .navbar-default .navbar-nav .open .dropdown-menu .divider {
-    background-color: $hoverColor ;
+    background-color: $decorativeColor ;
     
 }
+
 /* centering the drop down list */
 .navbar-default .dropdown-menu {
     right: 0;
     left:  0;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: $hoverColor ;
+    border-color: $decorativeColor ;
     background-color:$themeColor ;
 }
+
 /* Changing default border color to white*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: $hoverColor;
+  border-color: $decorativeColor;
 }
 @media (max-width: 767px)
 {
@@ -121,7 +110,7 @@ $font1: 'Lato', sans-serif;
     margin-top: 0;
     background-color: $themeColor;
     border: 1px;
-    border-color: $hoverColor ;
+    border-color: $decorativeColor; 
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
@@ -136,9 +125,3 @@ $font1: 'Lato', sans-serif;
     float:left;
 }
 
-/* font families included from google font families */
-/*
-font-family: 'Abel', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Economica', sans-serif;
-*/

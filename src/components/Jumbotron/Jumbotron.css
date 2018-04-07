@@ -1,8 +1,10 @@
+/*colors*/
+/*primary colors */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
-/*colors*/
 .jumbotron {
   background: transparent;
   font-family: "Lato", sans-serif;
@@ -16,21 +18,22 @@ h1, h2, h3, h4, h5, h6 {
   .jumbotron .btn-primary {
     color: #fff;
     border-radius: 0px;
-    background-color: #112a39;
-    border-color: #4c86a3;
+    background-color: #1c2331;
+    border-color: #f5b929;
     margin-left: 10px;
     width: 150px;
     height: 50px;
     margin-top: 40px;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     -webkit-transition: background-color 1s ease-in;
     -moz-transition: background-color 1s ease-in;
     -o-transition: background-color 1s ease-in;
     transition: background-color 1s ease-in; }
     .jumbotron .btn-primary:hover {
-      color: #000;
-      background-color: #ededed;
+      color: #696969;
+      border-color: #f5b929;
+      background-color: #f7f7f7;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
@@ -44,8 +47,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px; }
     .jumbotron .btn-primary {
       color: #fff;
-      background-color: #112a39;
-      border-color: #4c86a3;
+      background-color: #1c2331;
+      border-color: #f5b929;
       margin-left: 0px;
       width: 150px;
       height: 50px;
@@ -56,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
       -o-transition: background-color 1s ease-in;
       transition: background-color 1s ease-in; }
       .jumbotron .btn-primary:hover {
-        color: #000;
-        background-color: #ededed;
+        color: #696969;
+        background-color: #f7f7f7;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;

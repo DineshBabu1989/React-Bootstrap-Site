@@ -1,11 +1,11 @@
-@import "../Colors";
-@import "../Fonts";
+@import "../colors";
+@import "../fonts";
 
 .client-style{
     
     .container-fluid{
         background-color: $pageColor;
-        background-image: url("../images/featurebg.png");
+        background-image: url("../../images/featurebg.png");
         background-repeat: no-repeat center;
     }
     .container{
@@ -17,7 +17,7 @@
         
         .row{
             color:$textColorDark;
-            border-left: 3px solid black; 
+            border-left: 3px solid $decorativeColor; 
             margin:15px;
             padding-left:15px;
             
@@ -25,7 +25,7 @@
         .content{
             padding:15px;
             padding-top:0px;
-            text-align: justify;
+            text-align: left;
             font-family: $font;
             font-size:15px;
         }
@@ -35,9 +35,8 @@
             background-color:none;
             .item{
                   padding:10px;
-                
                  .itemContent{
-                  background-color:white;
+                  background-color:$pageColor;
                   text-align: center;
                   }
             

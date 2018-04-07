@@ -1,21 +1,12 @@
+/*colors*/
+/*primary colors */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
-/*$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$font:'Open Sans', sans-serif;
-$textColor:#fff;
-$bgColor:#112a39!important;
-$pageColor:#f7f7f7;
-$smallLine:#415d6e;//line at the intro
-$font1: 'Lato', sans-serif;
-*/
 .navbar-default {
-  background-color: #112a39 !important;
+  background-color: #1c2331;
   margin-bottom: 0px;
   border: none;
   border-radius: 0;
@@ -33,7 +24,7 @@ $font1: 'Lato', sans-serif;
 .navbar-default .navbar-nav > li:hover {
   color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #f5b929;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -66,7 +57,7 @@ $font1: 'Lato', sans-serif;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #fff;
+  border-color: #f5b929;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -79,12 +70,12 @@ $font1: 'Lato', sans-serif;
 .navbar-default .navbar-nav > .open > a:hover {
   color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #f5b929;
 }
 
 /* Over writting Bootstrap Site for link color on drop down*/
 .navbar-default .navbar-nav .open .dropdown-menu {
-  background-color: #112a39 !important;
+  background-color: #1c2331;
   color: #fff;
   border-radius: 0px;
 }
@@ -96,11 +87,11 @@ $font1: 'Lato', sans-serif;
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
   color: #fff;
   background-color: transparent;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #f5b929;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu .divider {
-  background-color: #fff;
+  background-color: #f5b929;
 }
 
 /* centering the drop down list */
@@ -110,13 +101,13 @@ $font1: 'Lato', sans-serif;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #fff;
-  background-color: #112a39 !important;
+  border-color: #f5b929;
+  background-color: #1c2331;
 }
 
 /* Changing default border color to white*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #fff;
+  border-color: #f5b929;
 }
 
 @media (max-width: 767px) {
@@ -125,9 +116,9 @@ $font1: 'Lato', sans-serif;
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: #112a39 !important;
+    background-color: #1c2331;
     border: 1px;
-    border-color: #fff;
+    border-color: #f5b929;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
@@ -141,10 +132,3 @@ $font1: 'Lato', sans-serif;
   margin-right: 5px;
   float: left;
 }
-
-/* font families included from google font families */
-/*
-font-family: 'Abel', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Economica', sans-serif;
-*/

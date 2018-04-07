@@ -1,5 +1,5 @@
-@import "../Colors";
-@import "../Fonts";
+@import "../colors";
+@import "../fonts";
 @import "../mixins";
 .footer-style{
     
@@ -55,7 +55,7 @@
         padding-right:30px;
         padding-bottom:90px;
         h1, h2, h3, h4, h5, h6 {
-        font-family: 'Lato', sans-serif;
+        font-family: $fontHighLight;
         font-weight: 300;
         margin-bottom: 10px;
         color:$pageColor;

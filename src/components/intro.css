@@ -2,13 +2,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-/*
-$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$smallLine:#415d6e;
-*/
 .outterRing {
   background-color: #0d202c;
   height: 200px;
@@ -42,15 +35,6 @@ $smallLine:#415d6e;
     font-family: 'Lato', sans-serif;
     font-weight: 300; }
 
-/*
-.picRing{
-    height:150px;
-    border-radius: 100px;
-   //picture movement animation 
-    background: gray url(../images/intro.png) repeat 0 0;
-    background-size: 200px 150px;
-   -webkit-animation: slide 20s linear infinite;
-}*/
 .icon {
   margin-top: 0px;
   font-size: 150px;

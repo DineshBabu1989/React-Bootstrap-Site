@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Carousel, Grid, Row, Col, Glyphicon,Image,Modal,Button} from 'react-bootstrap';
-import ModalItem from './Modal';
-import "./tech.css";
+import ModalItem from '../Modal/Modal';
+import "./Tech.css";
 
 class Tech extends Component{
  constructor(props) {
@@ -126,7 +126,7 @@ renderList(details,id){
         <div className ="list-pic col-xs-6 col-md-4 col-lg-2" key={details.id}
         onClick={() => this.handleClick(details.id)}>
         <div className = "list-pic-innerBlock" >
-        <img src={require('../images/'+details.image+'.png')} alt='' responsive/>
+        <img src={require('../../images/'+details.image+'.png')} alt='' responsive/>
         <div class="overlay">
         <div class="text">
         <h2>{details.heading}</h2>                   
@@ -144,7 +144,7 @@ return(
       <div className ="row">
       <div className = "col-xs-12 col-md-12">
       <div className = 'techHeading col-md-12'>
-      <h1>Technological Expertize</h1>
+      <h1><strong>Technological Expertize </strong></h1>
       </div>
       </div>
       </div>

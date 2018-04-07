@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Glyphicon} from 'react-bootstrap';
-import './intro.css';
+import './Intro.css';
 import MdImportantDevices from 'react-icons/lib/md/important-devices';
 import GoCircuitBoard from 'react-icons/lib/go/circuit-board';
 

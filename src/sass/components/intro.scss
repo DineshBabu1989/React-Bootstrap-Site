@@ -1,89 +1,69 @@
-@import "../Variables";
 @import "../mixins";
-/*
-$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$smallLine:#415d6e;
-*/
+@import "../colors";
+@import "../fonts";
+
 .outterRing{ 
-    background-color:$hoverBlock;
-    height: 200px;
-    color:$hoverColor;
+    background-color:$themeColor;
+    //height: 200px;
+    color:$textColorLight;
     font-family: $font;
     font-Size:20px;
     padding:25px;
-    
-       @include transition-in;
-   
+    @include transition-in;
     &:hover{
-        background-color:$Block;;
-        //@include transition(color .1s ease);
-  
-         @include transition-out;
+    background-color:lighten($themeColor, 10%);
+    @include transition-out;
    
     }
   
 }
 .innerRing{
-    height:150px;    
-    color:$hoverColor;
-    border-bottom: 1px solid $smallLine ;
-    border-top: 1px solid $smallLine ;
+    //height:150px;    
+    color:$textColorLight;
+    border-bottom: 1px solid $decorativeColor ;
+    border-top: 1px solid $decorativeColor ;
     padding-right: 50px;
+    padding-bottom: 32px;
     text-align: left;
     font-family: $font;
     font-Size:17px;
     font-weight: 100;
     margin-right: 80px;
     h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: $fontHighLight;
+    //font-weight: 300;
     }
 }
-/*
-.picRing{
-    height:150px;
-    border-radius: 100px;
-   //picture movement animation 
-    background: gray url(../images/intro.png) repeat 0 0;
-    background-size: 200px 150px;
-   -webkit-animation: slide 20s linear infinite;
-}*/
+
 .icon{
     margin-top:0px;
     font-size: 150px;
     float:left;
-    border-color: white;
-    color:white;
+    color:$textColorLight;
 }
 .iconHolder
 {
-    
-    border-bottom: 1px solid $smallLine ;
-    border-top: 1px solid $smallLine ;
+    border-bottom: 1px solid $decorativeColor ;
+    border-top: 1px solid $decorativeColor ;
 }
 
 //Mobile Css
 @media screen and (max-width: 768px) {
     .outterRing{ 
-    background-color:$hoverBlock;
-    height: 330px;
-    color:$hoverColor;
+    background-color:$themeColor;
+    color:$textColorLight;
     font-family: $font;
     font-Size:20px;
     padding:25px;
      @include transition-in;
     &:hover{
-        background-color:$Block;
-          @include transition-out;
+    background-color:lighten($themeColor, 10%);;
+    @include transition-out;
     }
     }
-    .innerRing{
-    height:280px;    
-    border-bottom: 1px solid $smallLine ;
-    border-top: 1px solid $smallLine ;
+    .innerRing{   
+    border-bottom: 1px solid $decorativeColor;
+    border-top: 1px solid $decorativeColor;
     padding-right: 0px;
     text-align: center;
     font-Size:17px;
@@ -91,5 +71,10 @@ $smallLine:#415d6e;
     }
     .icon{
     display:none;
-}
+    }
+    .iconHolder
+    {
+    border-bottom: none;
+    border-top: none;
+    }
 }

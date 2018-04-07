@@ -1,0 +1,86 @@
+/*colors*/
+/*primary colors */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.outterGrid {
+  background-color: #f7f7f7;
+  background-image: url("../../images/featurebg.png");
+  background-repeat: no-repeat center; }
+
+.columns {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  background-color: transparent; }
+
+.columnText {
+  background-color: transparent;
+  color: #696969;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100; }
+
+.titleRow {
+  margin: 10px;
+  margin-top: 25px;
+  border-left: 3px solid #f5b929;
+  Padding-left: 15px;
+  padding-top: 0px; }
+
+.titleRowContent {
+  margin: 10px; }
+
+.rowsTile {
+  background-color: transparent; }
+
+.rows {
+  background-color: #1c2331;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #fff;
+  text-align: justify; }
+
+.coltexts {
+  background-color: #f7f7f7;
+  font-family: "Open Sans", sans-serif; }
+
+.coltext {
+  background-color: #f7f7f7;
+  color: #696969;
+  height: 150px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in; }
+  .coltext:hover {
+    background-color: #1c2331;
+    color: #fff;
+    border-left: 1px solid #f5b929;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out; }
+
+.icon1 {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-left: 10px; }
+
+@media (max-width: 767px) {
+  .outterGrid {
+    background-color: #f7f7f7; }
+  .columnText {
+    background-color: none;
+    color: #696969;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify; } }

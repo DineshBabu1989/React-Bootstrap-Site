@@ -1,5 +1,6 @@
-@import "../Colors";
-@import "../Fonts";
+@import "../colors";
+@import "../fonts";
+
 .techContainer{
     margin-top:50px;
     margin-bottom:50px;
@@ -7,7 +8,7 @@
 }
 .techHeading{
     color:$textColorLight;
-    border-left:3px solid $textColorLight;
+    border-left:3px solid $decorativeColor;
     margin: 15px;
     margin-bottom: 30px;
 }
@@ -22,13 +23,14 @@
 .list-pic-innerBlock
 {
     height:150px;
-    background-color:$hoverColor;
+    background-color:white;
     box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
     text-align: center;
     padding-top:25px;
     padding-bottom: 25px;
     &:hover .overlay {
-        opacity:0.85;
+        opacity:0.95;
+        border: 1px solid $decorativeColor ;
     }
     .overlay {
       position: absolute;
@@ -47,7 +49,7 @@
           color: $textColorLight;
           font-size: 12px;
           position: absolute;
-          text-align: left;
+          text-align: center;
           font-family: $font;
           padding:15px;
         h2{
