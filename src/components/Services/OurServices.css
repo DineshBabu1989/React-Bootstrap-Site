@@ -1,6 +1,6 @@
 /*colors*/
 /*primary colors */
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-bottom: 20px; }
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .columnText {
   background-color: transparent;
-  color: #696969;
+  color: #333;
   font-family: "Open Sans", sans-serif;
   text-align: justify;
   font-size: 14px;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .coltext {
   background-color: #f7f7f7;
-  color: #696969;
+  color: #333;
   height: 150px;
   font-size: 13px;
   font-weight: 100;
@@ -81,6 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f7f7f7; }
   .columnText {
     background-color: none;
-    color: #696969;
+    color: #333;
     font-family: "Open Sans", sans-serif;
     text-align: justify; } }

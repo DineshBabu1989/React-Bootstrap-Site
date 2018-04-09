@@ -34,8 +34,10 @@
     .grid {
             background-color:none;
             .item{
+                  
                   padding:10px;
                  .itemContent{
+                  border:1px solid $themeColor;
                   background-color:$pageColor;
                   text-align: center;
                   }

@@ -13,7 +13,7 @@ return(
     <Row className="show-grid">
    
     <Col xs={12} md={8} className ="subscribeText">
-      <h1><strong>Subscribe Us - For Updates ,News & Offers</strong> </h1>
+      <h2><strong>Subscribe Us - For Updates ,News & Offers</strong> </h2>
       <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
     </Col>
     <Col xs={12} md={4} className ="subscribeButtonHolder">

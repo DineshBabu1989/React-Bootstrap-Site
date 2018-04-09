@@ -1,8 +1,9 @@
 /*colors*/
 /*primary colors */
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
 .footer-style .container-fluid {
   background-color: #1c2331; }
@@ -10,11 +11,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     font-size: 20px;
     margin-top: 30px;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 200; }
 
 .footer-style .social {
-  background-color: #161c27; }
+  background-color: #181e2b; }
 
 .footer-style .social-links-col-msg {
   color: #fff;
@@ -83,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #fff; }
 
 .footer-style .footer-bottom {
-  background-color: #161c27;
+  background-color: #181e2b;
   color: #bfbfbf;
   height: 60px;
   text-align: center;

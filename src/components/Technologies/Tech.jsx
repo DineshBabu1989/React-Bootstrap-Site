@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Carousel, Grid, Row, Col, Glyphicon,Image,Modal,Button} from 'react-bootstrap';
 import ModalItem from '../Modal/Modal';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import "./Tech.css";
 
 class Tech extends Component{
@@ -140,11 +142,12 @@ render(){
 return(
   <div>
       <div className = "techContainer container">
+      <ScrollAnimation animateIn="fadeIn">
       {/* Top Heading */}
       <div className ="row">
       <div className = "col-xs-12 col-md-12">
       <div className = 'techHeading col-md-12'>
-      <h1><strong>Technological Expertize </strong></h1>
+      <h2><strong>Technological Expertize </strong></h2>
       </div>
       </div>
       </div>
@@ -162,7 +165,7 @@ return(
       content ={this.state.details[this.state.active].content}
       banner = {this.state.details[this.state.active].imageLarge}
           />
-          
+    </ScrollAnimation> 
      </div>
      </div>
 

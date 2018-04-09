@@ -10,11 +10,8 @@ class CustomNavbar extends Component {
       <Navbar collapseOnSelect>
       
       <Navbar.Header>
-          <img className="logofix" src={logo} />
-          <Navbar.Brand>
-           <strong> GEM Enterprises </strong> 
-          </Navbar.Brand>
           <Navbar.Toggle />
+          <img className = "logofix" src={logo} />
      </Navbar.Header>
     
      <Navbar.Collapse>
@@ -26,18 +23,25 @@ class CustomNavbar extends Component {
               ABOUT
          </NavItem>
          <NavDropdown eventKey={3} title="SERVICES" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
+              <MenuItem eventKey={3.1}>Web Development</MenuItem>
+              <MenuItem eventKey={3.2}>E-Commerce Web Apps</MenuItem>
+              <MenuItem eventKey={3.3}>Native Mobile Apps</MenuItem>
+              <MenuItem eventKey={3.4}>Hybrid Mobile Apps</MenuItem>
+              <MenuItem eventKey={3.5}>CMS Web Development</MenuItem>
+              <MenuItem eventKey={3.6}>SEO,Hosting</MenuItem>
+              <MenuItem eventKey={3.7}>Embedded Solutions</MenuItem>
+              <MenuItem eventKey={3.8}>IoT Solutions</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
+              <MenuItem eventKey={3.4}>Request Quote</MenuItem>
          </NavDropdown>
-         <NavDropdown eventKey={3} title="PRODUCTS" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Action</MenuItem>
-              <MenuItem eventKey={3.2}>Another action</MenuItem>
-              <MenuItem eventKey={3.3}>Something else here</MenuItem>
+         <NavDropdown eventKey={4} title="PRODUCTS" id="basic-nav-dropdown">
+              <MenuItem eventKey={4.1}>IoT Data Loggers</MenuItem>
+              <MenuItem eventKey={4.2}>Custom Data Visualizers</MenuItem>
+              <MenuItem eventKey={4.3}>GPS Tracking Systems</MenuItem>
+              <MenuItem eventKey={4.3}>GSM Irrigators</MenuItem>
+              <MenuItem eventKey={4.3}>Water Level Controllers</MenuItem>
               <MenuItem divider />
-              <MenuItem eventKey={3.4}>Separated link</MenuItem>
+              <MenuItem eventKey={4.4}>Request Quote</MenuItem>
          </NavDropdown>
          <NavItem eventKey={3} href="/news" to="/news">
               CONTACT

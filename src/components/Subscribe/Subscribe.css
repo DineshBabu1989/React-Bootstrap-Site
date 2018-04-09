@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-bottom: 20px; }
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: background-color 1s ease-in; }
   .btn-primary2:hover {
     background-color: #f7f7f7;
-    color: #696969;
+    color: #333;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color 1s ease-in; }
     .btn-primary2:hover {
       background-color: #f7f7f7;
-      color: #696969;
+      color: #333;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;

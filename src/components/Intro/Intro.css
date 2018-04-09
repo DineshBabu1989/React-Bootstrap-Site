@@ -1,6 +1,6 @@
 /*colors*/
 /*primary colors */
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   margin-bottom: 20px; }
@@ -35,6 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 80px; }
   .innerRing h1, .innerRing h2, .innerRing h3, .innerRing h4, .innerRing h5, .innerRing h6 {
     font-family: "Lato", sans-serif; }
+  .innerRing span {
+    font-size: 30px;
+    font-weight: 700; }
 
 .icon {
   margin-top: 0px;
@@ -43,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff; }
 
 .iconHolder {
+  padding-top: 8px;
+  padding-bottom: 9px;
   border-bottom: 1px solid #f5b929;
   border-top: 1px solid #f5b929; }
 

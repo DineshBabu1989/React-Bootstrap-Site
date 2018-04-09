@@ -33,6 +33,10 @@
     font-family: $fontHighLight;
     //font-weight: 300;
     }
+    span{
+        font-size:30px;
+        font-weight: 700;
+    }
 }
 
 .icon{
@@ -40,9 +44,12 @@
     font-size: 150px;
     float:left;
     color:$textColorLight;
+    
 }
 .iconHolder
 {
+    padding-top: 8px;
+    padding-bottom: 9px;
     border-bottom: 1px solid $decorativeColor ;
     border-top: 1px solid $decorativeColor ;
 }

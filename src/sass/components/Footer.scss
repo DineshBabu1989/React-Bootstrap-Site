@@ -4,7 +4,7 @@
 .footer-style{
     
     .container-fluid{
-         background-color:$footerbg;
+         background-color:$themeColor;
         .footer-welcome{
             text-align: left;
             font-size: 20px;
@@ -14,7 +14,7 @@
         }
     }
     .social {
-        background-color: $footerbgHigh;
+        background-color: $themeDark;
     }
     .social-links-col-msg{
         color:$textColorLight;
@@ -26,7 +26,7 @@
         color:$pageColor;
         @include transition-in;
         &:hover{
-            color: $textLine;
+            color: $decorativeColor;
             @include transition-out;
         }
         
@@ -46,7 +46,7 @@
         }
     }
     .footer-column {
-        background-color: $footerbg;
+        background-color: $themeColor;
         color: $linkColor;
         font-size: 14px;
         text-align: left;
@@ -68,7 +68,7 @@
             width: 60px;
             height: 0px;
             border: 0;
-            border-top: 2px solid $textLine;
+            border-top: 2px solid $decorativeColor;
             margin: 1em 0 2em ;
             padding: 0;
         }
@@ -84,14 +84,14 @@
            color: $linkColor;
            text-decoration: none;
        &:hover{
-           color: $linkHover;       
+           color: $textColorLight;       
           }
        }
       
         
     }
     .footer-bottom {
-        background-color: $footerbgHigh;
+        background-color: $themeDark;
         color:#bfbfbf;
         height: 60px;
         text-align: center;
@@ -100,7 +100,7 @@
             color: $linkColor;
             text-decoration: none;
         &:hover{
-            color: $linkHover;       
+            color: $textColorLight;       
            }
         }
     }
