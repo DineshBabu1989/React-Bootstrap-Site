@@ -1,5 +1,7 @@
 import React,{ Component } from 'react';
 import { Grid, Row, Col, Glyphicon} from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import './OurServices.css';
 /* import icons*/
 import MdPhonelink from 'react-icons/lib/md/phonelink';
@@ -18,21 +20,21 @@ const OurServices = ()=>{
     <Grid>
     <Row>
     <Col xs={12} md={4} className="columns">
+    <ScrollAnimation animateIn="fadeIn">
     <Row className="rowsTile">
        <Col xs ={12} md={12} className="columnText">
-        <Row className ="titleRow">
-            <h1>Software Services</h1>
-        </Row>
-        <Row className ="titleRowContent">
-           We spealize in designing fully responsive web applications using modern day framworks.We are a leading service provider in the digital domain, an organization that aspires to drive digital transformation. With our expertise ranging from custom product development, enterprise mobility, UI/UX design, digital marketing, and e-commerce, to technologies such as AI, AR, VR, RPA, and more, we emerge as the one-stop destination for the entire IT needs of businesses. We provide futuristic digital transformation services that enable businesses to keep pace with the emerging trends.
-           
-           </Row>
-            
-        
-        </Col>
+       <Row className ="titleRow">
+       <h2><strong>Software Services</strong></h2>
        </Row>
+       <Row className ="titleRowContent">
+           We spealize in designing fully responsive web applications using modern day framworks.We are a leading service provider in the digital domain, an organization that aspires to drive digital transformation. With our expertise ranging from custom product development, enterprise mobility, UI/UX design, digital marketing, and e-commerce, to technologies such as AI, AR, VR, RPA, and more, we emerge as the one-stop destination for the entire IT needs of businesses. We provide futuristic digital transformation services that enable businesses to keep pace with the emerging trends.
+       </Row>
+       </Col>
+       </Row>
+    </ScrollAnimation>  
     </Col>
     <Col xs={12} md={4} className="columns">
+    <ScrollAnimation animateIn="fadeIn">
     <Row className="rows">
         <Col xs ={4} md={4}  ><MdPhonelink className = "icon1"/></Col>
         <Col xs ={8} md={8} className="coltext">
@@ -54,9 +56,11 @@ const OurServices = ()=>{
           How many of your website visitors are turning into customers? We will help make your ecommerce website your most effective selling tool.
         </Col>
         </Row>
+     </ScrollAnimation> 
     </Col>
-   <Col xs={12} md={4} className="columns">
-   <Row className="rows">
+    <Col xs={12} md={4} className="columns">
+    <ScrollAnimation animateIn="fadeIn">
+    <Row className="rows">
        <Col xs ={4} md={4}  ><FaUserPlus className = "icon1"/></Col>
         <Col xs ={8} md={8} className="coltext">
         <h3>CMS</h3>
@@ -77,6 +81,7 @@ const OurServices = ()=>{
            Get reliable, high-performance hosting, that fits your budget with 99.99% uptime and support on hosting issues.
         </Col>
        </Row>
+    </ScrollAnimation> 
     </Col>
    </Row>   
     </Grid>

@@ -1,23 +1,28 @@
-@import "../Variables";
+@import "../fonts";
 @import "../mixins";
-
+@import "../colors";
 .baseGrid{
-    height:200px;
     background-color: transparent;
-    //margin-bottom:500px;
-    color: $hoverColor;
-
-}
-.subscribeText{
+    color: $textColorLight;
+    .show-grid{
+    .subscribeText{
     padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .subscribeButtonHolder{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    }
+    }
 }
+
 .btn-primary2 {
-    color: #fff;
+    color: $textColorLight;
+    margin: 0 auto;
     float: right;
     border-radius:0px;
-    background-color: #112a39;
-    border-color:#4c86a3 ;
-    margin-top: 80px;
+    background-color: $themeColor;
+    border-color:$decorativeColor;
     width:200px;
     height: 50px;
     font-family: $font;
@@ -25,10 +30,8 @@
     font-weight: 300;
     @include transition-in;
     &:hover{
-        background-color:$hoverBlock;
-         color: #000;
-         background-color: #ededed;
-  
+         background-color:$pageColor;
+         color: $textColorDark;
          @include transition-out;
    
     }
@@ -36,22 +39,27 @@
 @media (max-width: 767px)
 {
    .baseGrid{
-    height:350px;
-    background-color: transparent;
-    //margin-bottom:500px;
-    color: $hoverColor;
-
-}
-.subscribeText{
+    .show-grid{
+    .subscribeText{
     padding-top: 50px;
-}
+    padding-bottom: 50px;
+    }
+    .subscribeButtonHolder{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    }
+    }
+    }
+
 .btn-primary2 {
-    color: #fff;
-    float: right;
+    color: $textColorLight;
     border-radius:0px;
-    background-color: #112a39;
-    border-color:#4c86a3 ;
-    margin-top: 10px;
+    background-color: $themeColor;
+    border-color: $decorativeColor ;
     width:200px;
     height: 50px;
     font-family: $font;
@@ -59,10 +67,9 @@
     font-weight: 300;
     @include transition-in;
     &:hover{
-        background-color:$hoverBlock;
-         color: #000;
-         background-color: #ededed;
-         @include transition-out;
+        background-color:$pageColor;
+        color: $textColorDark;
+        @include transition-out;
    
     }
 }

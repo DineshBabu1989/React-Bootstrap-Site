@@ -1,12 +1,20 @@
 /*colors*/
-.tech {
-  background-color: aqua; }
+/*primary colors */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.techContainer {
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .techHeading {
   color: #fff;
-  border-left: 3px solid white;
-  margin: 10px; }
+  border-left: 3px solid #f5b929;
+  margin: 15px;
+  margin-bottom: 30px; }
 
+/*Individual elements & over lay effect inside each block */
 .list-pic {
   height: 170px;
   background-color: transparent;
@@ -15,12 +23,14 @@
 
 .list-pic-innerBlock {
   height: 150px;
-  background-color: #112a39 !important;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px; }
   .list-pic-innerBlock:hover .overlay {
-    opacity: 0.75; }
+    opacity: 0.85; }
   .list-pic-innerBlock .overlay {
     position: absolute;
     top: 10px;
@@ -33,14 +43,15 @@
     -webkit-transition: .5s ease;
     -o-transition: .5s ease;
     transition: .5s ease;
-    background-color: #f5b929; }
+    background-color: #1c2331;
+    -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19); }
   .list-pic-innerBlock .text {
-    color: black;
-    font-size: 20px;
+    color: #fff;
+    font-size: 12px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center; }
+    text-align: left;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 15px; }
+    .list-pic-innerBlock .text h2 {
+      text-align: center; }

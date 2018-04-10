@@ -1,10 +1,12 @@
-@import "../Variables";
 @import "../mixins";
-
+@import "../colors";
+@import "../fonts";
+ 
 .outterGrid{
     background-color:$pageColor;
-    background-image: url("../images/featurebg.png");
+    background-image: url("../../images/featurebg.png");
     background-repeat: no-repeat center;
+
 }
 .columns{
     margin-top:50px;
@@ -13,12 +15,12 @@
 }
 .columnText{
     background-color: transparent;
-    color:black;
+    color:$textColorDark;
     font-family: $font;
     text-align:justify;
     font-size:14px;
     font-weight:100;
-    
+   
    
 }
 //Title Row
@@ -26,7 +28,7 @@
 {
     margin:10px;
     margin-top:25px;
-    border-left:3px solid ;
+    border-left:3px solid $decorativeColor ;
     Padding-left: 15px;
     padding-top:0px;
    
@@ -44,7 +46,8 @@
     margin-top:20px;
     margin-right:0px;
     margin-left:0px;
-    color:$hoverColor;
+    color:$textColorLight;
+    text-align: justify;
 }
 
 //list separate
@@ -54,7 +57,7 @@
 }
 .coltext{
     background-color: $pageColor;
-    color:black;
+    color:$textColorDark;
     height: 150px;
     font-size:13px;
     font-weight:100;
@@ -64,8 +67,8 @@
     @include transition-in;
     &:hover{
         background-color:$themeColor ;
-        color:$textColor;
-        border-left:1px solid white;
+        color:$textColorLight;
+        border-left:1px solid $decorativeColor;
         @include transition-out;
     }
     
@@ -78,8 +81,6 @@
     
 }
 
-
-
 @media (max-width: 767px)
 {
    .outterGrid{
@@ -89,7 +90,7 @@
     
     .columnText{
     background-color:none;
-    color:black;
+    color:$textColorDark;
     font-family: $font;
     text-align:justify;
 } 

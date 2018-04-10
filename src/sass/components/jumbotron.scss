@@ -1,38 +1,24 @@
-@import "../Variables";
+@import "../colors";
 @import "../mixins";
-/*$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$font:'Open Sans', sans-serif;
-$textColor:#fff;
-$textColorDark:#000;
-$bgColor:#112a39!important;
-$pageColor:#f7f7f7;
-$smallLine:#415d6e;//line at the intro
-$font1: 'Lato', sans-serif;
-$buttonBorder :#4c86a3;
-$buttonColor:#112a39;
-$buttonHover:#ededed;
-*/
+@import "../fonts";
 
 .jumbotron 
 {
-    background-image: url("../images/slide2.png");
-    font-family: $font1;
-    color:#333;
+    background:transparent;
+    font-family: $fontHighLight;
+    color:$textColorLight;
     padding-left: 100px;
     margin-bottom: 0px;
     height:350px;
     h1, h2, h3, h4, h5, h6 {
-   font-family: $font1;
-   font-weight: 400;
+    font-family: $fontHighLight;
+    font-weight: 400;
     }
     .btn-primary {
-    color: $textColor;
+    color: $textColorLight;
     border-radius:0px;
-    background-color: $buttonColor;
-    border-color:$buttonBorder ;
+    background-color: $themeColor;
+    border-color:$decorativeColor ;
     margin-left: 10px;
     width:150px;
     height: 50px;
@@ -43,7 +29,8 @@ $buttonHover:#ededed;
     &:hover{
         
          color: $textColorDark;
-         background-color: $buttonHover;
+         border-color:$decorativeColor ;
+         background-color: $pageColor;
          @include transition-out;
    
     }
@@ -57,14 +44,14 @@ $buttonHover:#ededed;
  
 .jumbotron 
 {
-    background-image: url("../images/slide2.png");
-    color:$textColorDark;
+    background:transparent;
+    color:$textColorLight;
     padding: 10px;
     margin-bottom: 0px;
     .btn-primary {
-    color: $textColor;
-    background-color:$buttonColor;
-    border-color:$buttonBorder ;
+    color: $textColorLight;
+    background-color:$themeColor;
+    border-color:$decorativeColor;
     margin-left: 0px;
     width:150px;
     height: 50px;
@@ -73,7 +60,7 @@ $buttonHover:#ededed;
     @include transition-in;
     &:hover{
          color: $textColorDark;
-         background-color: $buttonHover;
+         background-color: $pageColor;
          @include transition-out;  
    
     }

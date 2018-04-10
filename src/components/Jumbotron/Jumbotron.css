@@ -1,26 +1,14 @@
-h1, h2, h3, h4, h5, h6 {
+/*colors*/
+/*primary colors */
+h1, h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
-/*$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$font:'Open Sans', sans-serif;
-$textColor:#fff;
-$textColorDark:#000;
-$bgColor:#112a39!important;
-$pageColor:#f7f7f7;
-$smallLine:#415d6e;//line at the intro
-$font1: 'Lato', sans-serif;
-$buttonBorder :#4c86a3;
-$buttonColor:#112a39;
-$buttonHover:#ededed;
-*/
 .jumbotron {
-  background-image: url("../images/slide2.png");
+  background: transparent;
   font-family: "Lato", sans-serif;
-  color: #333;
+  color: #fff;
   padding-left: 100px;
   margin-bottom: 0px;
   height: 350px; }
@@ -30,21 +18,22 @@ $buttonHover:#ededed;
   .jumbotron .btn-primary {
     color: #fff;
     border-radius: 0px;
-    background-color: #112a39;
-    border-color: #4c86a3;
+    background-color: #1c2331;
+    border-color: #f5b929;
     margin-left: 10px;
     width: 150px;
     height: 50px;
     margin-top: 40px;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     -webkit-transition: background-color 1s ease-in;
     -moz-transition: background-color 1s ease-in;
     -o-transition: background-color 1s ease-in;
     transition: background-color 1s ease-in; }
     .jumbotron .btn-primary:hover {
-      color: #000;
-      background-color: #ededed;
+      color: #333;
+      border-color: #f5b929;
+      background-color: #f7f7f7;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
@@ -52,14 +41,14 @@ $buttonHover:#ededed;
 
 @media only screen and (max-width: 700px) {
   .jumbotron {
-    background-image: url("../images/slide2.png");
-    color: #000;
+    background: transparent;
+    color: #fff;
     padding: 10px;
     margin-bottom: 0px; }
     .jumbotron .btn-primary {
       color: #fff;
-      background-color: #112a39;
-      border-color: #4c86a3;
+      background-color: #1c2331;
+      border-color: #f5b929;
       margin-left: 0px;
       width: 150px;
       height: 50px;
@@ -70,8 +59,8 @@ $buttonHover:#ededed;
       -o-transition: background-color 1s ease-in;
       transition: background-color 1s ease-in; }
       .jumbotron .btn-primary:hover {
-        color: #000;
-        background-color: #ededed;
+        color: #333;
+        background-color: #f7f7f7;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;

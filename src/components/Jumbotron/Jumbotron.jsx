@@ -6,13 +6,12 @@ const JumbotronFront = () =>{
    
        
 <Jumbotron>
-  <h2>Software Development, Embedded Solutions</h2>
+  <h2>Fetch( Clients ).then( "Meet Demands" ).catch( "Reiterate Exceed Expectations");</h2>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+   A webapp speaks thousand words about a company or a business.We make sure it does it in the best way possible...
   </p>
   <p>
-    <Button  bsStyle="primary">LEARN MORE</Button>
+  <Button  bsStyle="primary">LEARN MORE</Button>
   </p>
 </Jumbotron>
 

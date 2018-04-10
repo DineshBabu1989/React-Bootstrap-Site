@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col,Image,Button} from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import './Clients.css';
+
 class Clients extends Component{
     
     constructor(props){
@@ -66,7 +69,7 @@ class Clients extends Component{
         return(
             <div className="item col-xs-6 col-md-3">
             <div className="itemContent">
-            <Image src={require('../images/Clients-logo/'+clientDetails.image+'.png')} alt='' responsive/>
+            <Image src={require('../../images/Clients-logo/'+clientDetails.image+'.png')} alt='' responsive/>
             </div>
             </div>
         );
@@ -79,13 +82,15 @@ class Clients extends Component{
             <div className = "client-style">
             <div className = "container-fluid"> 
             <div className = "container">
+            <ScrollAnimation animateIn="fadeIn">
             <div className = "title col-sm-12 col-md-3">
-            <div className ="row"><h1>Clients</h1> </div>
-            <div className ="content">It is primarily used for source code management in software dev.but it can be used to keep track of changes in set of files</div>
+            <div className ="row"><h2><strong>Clients</strong></h2> </div>
+            <div className ="content">It is primarily used for source code management in software dev.but it can be used to keep track changes in set of files</div>
             </div>
             <div className = "grid col-sm-12 col-md-9">
             {this.state.clientDetails.map(this.renderItem)}
             </div>
+            </ScrollAnimation>   
             </div>
             </div>
             </div>);

@@ -1,19 +1,14 @@
-h1, h2, h3, h4, h5, h6 {
+/*colors*/
+/*primary colors */
+h1, h2 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 400;
+  margin-bottom: 20px; }
 
-/*
-$themeColor : #112a39!important;
-$hoverColor :#fff;
-$Block: #233f53;
-$hoverBlock:#0d202c;
-$smallLine:#415d6e;
-*/
 .outterRing {
-  background-color: #0d202c;
-  height: 200px;
+  background-color: #1c2331;
   color: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-Size: 20px;
   padding: 25px;
   -webkit-transition: background-color 1s ease-in;
@@ -21,53 +16,46 @@ $smallLine:#415d6e;
   -o-transition: background-color 1s ease-in;
   transition: background-color 1s ease-in; }
   .outterRing:hover {
-    background-color: #233f53;
+    background-color: #2f3a51;
     -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
     transition: background-color 1s ease-out; }
 
 .innerRing {
-  height: 150px;
   color: #fff;
-  border-bottom: 1px solid #415d6e;
-  border-top: 1px solid #415d6e;
+  border-bottom: 1px solid #f5b929;
+  border-top: 1px solid #f5b929;
   padding-right: 50px;
+  padding-bottom: 32px;
   text-align: left;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-Size: 17px;
   font-weight: 100;
   margin-right: 80px; }
   .innerRing h1, .innerRing h2, .innerRing h3, .innerRing h4, .innerRing h5, .innerRing h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300; }
+    font-family: "Lato", sans-serif; }
+  .innerRing span {
+    font-size: 30px;
+    font-weight: 700; }
 
-/*
-.picRing{
-    height:150px;
-    border-radius: 100px;
-   //picture movement animation 
-    background: gray url(../images/intro.png) repeat 0 0;
-    background-size: 200px 150px;
-   -webkit-animation: slide 20s linear infinite;
-}*/
 .icon {
   margin-top: 0px;
   font-size: 150px;
   float: left;
-  border-color: white;
-  color: white; }
+  color: #fff; }
 
 .iconHolder {
-  border-bottom: 1px solid #415d6e;
-  border-top: 1px solid #415d6e; }
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #f5b929;
+  border-top: 1px solid #f5b929; }
 
 @media screen and (max-width: 768px) {
   .outterRing {
-    background-color: #0d202c;
-    height: 330px;
+    background-color: #1c2331;
     color: #fff;
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-Size: 20px;
     padding: 25px;
     -webkit-transition: background-color 1s ease-in;
@@ -75,18 +63,20 @@ $smallLine:#415d6e;
     -o-transition: background-color 1s ease-in;
     transition: background-color 1s ease-in; }
     .outterRing:hover {
-      background-color: #233f53;
+      background-color: #2f3a51;
       -webkit-transition: background-color 1s ease-out;
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
       transition: background-color 1s ease-out; }
   .innerRing {
-    height: 280px;
-    border-bottom: 1px solid #415d6e;
-    border-top: 1px solid #415d6e;
+    border-bottom: 1px solid #f5b929;
+    border-top: 1px solid #f5b929;
     padding-right: 0px;
     text-align: center;
     font-Size: 17px;
     margin-right: 80px; }
   .icon {
-    display: none; } }
+    display: none; }
+  .iconHolder {
+    border-bottom: none;
+    border-top: none; } }
