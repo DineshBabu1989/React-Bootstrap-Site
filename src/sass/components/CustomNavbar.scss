@@ -41,16 +41,9 @@
 }
 
 //Toggle Button 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: $textColorLight;
-}
-.navbar-default .navbar-toggle {
-  border-color: $decorativeColor;
-}
-.navbar-default .navbar-toggle:focus, 
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
+
+
+
 
 //Navbar List Drop Down
 .navbar-default .navbar-nav>.open>a, 
@@ -129,6 +122,7 @@
     border-radius: 0;
     }
     
+    /*Navbar Toggle*/
     .navbar-toggle {
     position: relative;
     float: right;
@@ -137,7 +131,7 @@
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 8px;
-    background-color: transparent;
+    background-color: $themeColor;
     background-image: none;
     border: 1px solid $textColorLight;
     border-radius: 0px;
@@ -145,6 +139,10 @@
     .navbar-default .navbar-toggle:hover, 
     .navbar-default .navbar-toggle:focus {
     border: 1px solid $decorativeColor;
+    background-color: $themeColor;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: $textColorLight;
     }
     .navbar-default .navbar-nav .open .dropdown-menu {
     background-color:$themeColor;
