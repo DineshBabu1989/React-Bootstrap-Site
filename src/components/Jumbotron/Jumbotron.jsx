@@ -6,7 +6,7 @@ const JumbotronFront = () =>{
    
        
 <Jumbotron>
-  <h2>Fetch( Clients ).then( "Meet Demands" ).catch( "Reiterate Exceed Expectations");</h2>
+  <p className = "jumbotronTitle">Fetch( Clients ).then( "Meet Demands" ).catch( "Reiterate Exceed Expectations");</p>
    <p className = "jumbotronText">
    A webapp speaks thousand words about a company or a business.We make sure it does it in the best way possible...
   </p>

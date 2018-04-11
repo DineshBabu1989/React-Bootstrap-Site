@@ -9,9 +9,15 @@
     color:$textColorLight;
     padding-left: 100px;
     margin-bottom: 0px;
-    h1, h2, h3, h4, h5, h6 {
-    font-family: $fontHighLight;
-    font-weight: 400;
+    .jumbotronTitle{
+     font-family: $fontHighLight;
+     font-size: 36px;
+     font-weight: 700;
+    }
+    .jumbotronText{
+     font-family: $font;
+     font-size: 18px;
+     font-weight: 300;
     }
     .btn-primary {
     color: $textColorLight;
@@ -54,7 +60,7 @@
     margin-left: 0px;
     width:150px;
     height: 50px;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 8px;
     @include transition-in;
     &:hover{
@@ -63,13 +69,18 @@
          @include transition-out;  
    
     }
-    
-    
+    }
+    .jumbotronTitle{
+     font-family: $fontHighLight;
+     font-size: 30px;
+     font-weight: 700;
     }
     .jumbotronText{
-            display:none;
-    }
-    }
+     font-family: $font;
+     font-size: 18px;
+     font-weight: 300;
+    }    
+}
 
 
 }

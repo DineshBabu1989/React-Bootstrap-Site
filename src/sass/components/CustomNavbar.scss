@@ -28,23 +28,15 @@
  color: $textColorLight;
 }
 .navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover 
-{
+.navbar-default .navbar-nav>li>a:hover {
  color: $textColorLight;
  background-color: transparent;
 }
-
 .navbar-default .navbar-brand:focus, 
 .navbar-default .navbar-brand:hover {
  color:$textColorLight ;
  background-color: transparent;
 }
-
-//Toggle Button 
-
-
-
-
 //Navbar List Drop Down
 .navbar-default .navbar-nav>.open>a, 
 .navbar-default .navbar-nav>.open>a:focus, 
@@ -78,7 +70,6 @@
     background-color: $decorativeColor ;
     
 }
-
 /* centering the drop down list */
 .navbar-default .dropdown-menu {
     right: 0;
@@ -89,7 +80,6 @@
     background-color:$themeColor ;
 }
 
-/* Changing default border color to white*/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: $decorativeColor;
 }

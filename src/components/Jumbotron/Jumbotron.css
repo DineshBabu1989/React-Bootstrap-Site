@@ -11,9 +11,14 @@ h1, h2 {
   color: #fff;
   padding-left: 100px;
   margin-bottom: 0px; }
-  .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  .jumbotron .jumbotronTitle {
     font-family: "Lato", sans-serif;
-    font-weight: 400; }
+    font-size: 36px;
+    font-weight: 700; }
+  .jumbotron .jumbotronText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
   .jumbotron .btn-primary {
     color: #fff;
     border-radius: 0px;
@@ -51,7 +56,7 @@ h1, h2 {
       margin-left: 0px;
       width: 150px;
       height: 50px;
-      font-size: 16px;
+      font-size: 14px;
       margin-top: 8px;
       -webkit-transition: background-color 1s ease-in;
       -moz-transition: background-color 1s ease-in;
@@ -64,5 +69,11 @@ h1, h2 {
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
         transition: background-color 1s ease-out; }
+    .jumbotron .jumbotronTitle {
+      font-family: "Lato", sans-serif;
+      font-size: 30px;
+      font-weight: 700; }
     .jumbotron .jumbotronText {
-      display: none; } }
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 300; } }
