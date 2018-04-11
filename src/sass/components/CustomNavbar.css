@@ -61,13 +61,13 @@ h1, h2 {
   background-color: #1c2331;
   color: #fff;
   border-radius: 0px;
-  width: 200px; }
-
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-  color: #fff;
+  padding: 20px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 300; }
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #fff; }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
   color: #fff;
@@ -124,21 +124,8 @@ h1, h2 {
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0px; }
-  .navbar-default .navbar-toggle:hover,
-  .navbar-default .navbar-toggle:focus {
-    border: 1px solid #f5b929; }
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    background-color: #1c2331;
-    color: #fff;
-    border-radius: 0px;
-    width: 100%; }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 300; }
   /* logo fixing css */
   .logofix {
     position: relative;
