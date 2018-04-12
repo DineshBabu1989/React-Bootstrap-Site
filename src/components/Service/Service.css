@@ -9,8 +9,8 @@ h1, h2 {
   background-color: #f7f7f7;
   background-image: url("../../images/featurebg.png");
   background-repeat: no-repeat center;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .service .container {
     color: #333; }
     .service .container .title-row {
@@ -76,4 +76,8 @@ h1, h2 {
     line-height: 150px;
     text-align: center;
     background-color: #1c2331;
-    vertical-align: middle; } }
+    vertical-align: middle; }
+  .service .container .item-holder .item-text .item-text-title {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 100; } }

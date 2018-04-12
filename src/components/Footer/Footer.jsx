@@ -31,21 +31,21 @@ const Footer = () => {
        <div className = "container">
        <div className ="row">
        <div className = "footer-column col-sm-12 col-md-3">
-        <h3><strong>GEM Enterprises</strong></h3>
+        <h3 className = "footer-column-title"><strong>GEM Enterprises</strong></h3>
         <hr className="underLine"/>
-        <p className = "about-text">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p className = "about-text">We are a committed team of developers, designers, and programmers. Our areas of expertize spans across a spectrum of domains from web development, Hybrid mobile application development, IoT, and embedded systems.</p>
        </div>
        <div className = "footer-column col-sm-12 col-md-3">
-       <h3><strong>Products</strong></h3>
+       <h3 className = "footer-column-title"><strong>Products</strong></h3>
         <hr className="underLine"/>
-        <p> <a href="#!">Web Apps</a></p>
+        <p> <a href="#!">Web </a></p>
         <p> <a href="#!">E-Commerce</a></p>
-        <p> <a href="#!">SEO-Marketting</a></p>
-        <p> <a href="#!">IoT-Products</a></p>
-        <p> <a href="#!">Mobile Apps</a></p>
+        <p> <a href="#!">Mobile </a></p>
+        <p> <a href="#!">Embedded</a></p>
+        <p> <a href="#!">IoT</a></p>
        </div>
        <div className = "footer-column col-sm-12 col-md-3">
-       <h3><strong>Usefull Links </strong></h3>
+       <h3 className = "footer-column-title"><strong>Usefull Links </strong></h3>
         <hr className="underLine"/>
         <p> <a href="#!">About Us</a></p>
         <p> <a href="#!">Services</a></p>
@@ -54,7 +54,7 @@ const Footer = () => {
         <p> <a href="#!">Technology</a></p>
         </div>
        <div className = "footer-column col-sm-12 col-md-3">
-       <h3><strong>Contact</strong></h3> 
+       <h3 className = "footer-column-title"><strong>Contact</strong></h3> 
         <hr className="underLine"/>
         <p >
         <i className="fa fa-home fa-fw" aria-hidden="true"></i>

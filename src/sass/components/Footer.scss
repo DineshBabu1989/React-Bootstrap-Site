@@ -46,6 +46,7 @@
         }
     }
     .footer-column {
+        
         background-color: $themeColor;
         color: $linkColor;
         font-size: 14px;
@@ -62,6 +63,10 @@
         }
         .about-text{
             text-align: justify;
+            text-align-last: left;
+            font-family: $font;
+            font-size: 14px;
+            font-weight: 100px;
         }
         hr {
             display: block;
@@ -82,7 +87,11 @@
        }
        a {
            color: $linkColor;
+           font-family: $font;
+           font-size: 14px;
+           font-weight: 100px;
            text-decoration: none;
+           
        &:hover{
            color: $textColorLight;       
           }

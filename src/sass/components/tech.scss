@@ -23,6 +23,8 @@
 .list-pic-innerBlock
 {
     height:150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     background-color:white;
     box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -46,6 +48,8 @@
       box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
              }
     .text {
+          overflow: hidden;
+          text-overflow: ellipsis;
           color: $textColorLight;
           font-size: 12px;
           position: absolute;

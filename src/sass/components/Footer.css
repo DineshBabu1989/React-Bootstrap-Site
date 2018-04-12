@@ -64,7 +64,6 @@ h1, h2 {
     color: #f7f7f7; }
   .footer-style .footer-column .about-text {
     text-align: justify;
-    text-align-last: left;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 100px; }
@@ -83,9 +82,6 @@ h1, h2 {
     text-indent: 30px; }
   .footer-style .footer-column a {
     color: #bfbfbf;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 100px;
     text-decoration: none; }
     .footer-style .footer-column a:hover {
       color: #fff; }

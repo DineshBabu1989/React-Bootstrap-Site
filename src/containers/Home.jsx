@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import JumbotronFront from '../components/Jumbotron/Jumbotron';
 import Intro from '../components/Intro/Intro';
-import OurServices from '../components/Services/OurServices';
 import Service from '../components/Service/Service';
 import Subscribe from '../components/Subscribe/Subscribe';
-import OurEmbeddedServices from '../components/Services/OurEmbeddedServices';
+import ServiceEmbedded from '../components/Service/ServiceEmbedded';
 import Tech from '../components/Technologies/Tech';
 import Clients from '../components/Clients/Clients';
 import Footer from '../components/Footer/Footer';
@@ -20,7 +19,7 @@ return(
 <Intro />
 <Service />
 <Subscribe/>
-<OurEmbeddedServices />
+<ServiceEmbedded />
 <Tech /> 
 <Clients />
 <Footer />
