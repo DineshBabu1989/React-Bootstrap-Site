@@ -79,10 +79,11 @@ class Clients extends Component{
     render()
     {
         return(
+            <ScrollAnimation animateIn="fadeIn">
             <div className = "client-style">
             <div className = "container-fluid"> 
             <div className = "container">
-            <ScrollAnimation animateIn="fadeIn">
+            
             <div className = "title col-sm-12 col-md-3">
             <div className ="row"><h2><strong>Clients</strong></h2> </div>
             <div className ="content">It is primarily used for source code management in software dev.but it can be used to keep track changes in set of files</div>
@@ -90,10 +91,11 @@ class Clients extends Component{
             <div className = "grid col-sm-12 col-md-9">
             {this.state.clientDetails.map(this.renderItem)}
             </div>
-            </ScrollAnimation>   
+           
             </div>
             </div>
-            </div>);
+            </div>
+            </ScrollAnimation>   );
     }
     
 }

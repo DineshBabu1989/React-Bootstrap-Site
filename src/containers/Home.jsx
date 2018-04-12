@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import JumbotronFront from '../components/Jumbotron/Jumbotron';
 import Intro from '../components/Intro/Intro';
 import OurServices from '../components/Services/OurServices';
+import Service from '../components/Service/Service';
 import Subscribe from '../components/Subscribe/Subscribe';
 import OurEmbeddedServices from '../components/Services/OurEmbeddedServices';
 import Tech from '../components/Technologies/Tech';
@@ -17,7 +18,7 @@ return(
 <div className ="HomePage"> 
 <JumbotronFront />
 <Intro />
-<OurServices />
+<Service />
 <Subscribe/>
 <OurEmbeddedServices />
 <Tech /> 

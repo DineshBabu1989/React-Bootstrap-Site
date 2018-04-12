@@ -45,7 +45,7 @@ class CustomNavbar extends Component {
          </NavDropdown>
          <NavItem eventKey={3} href="/news" to="/news">
               CONTACT
-          </NavItem>
+         </NavItem>
           </Nav>
     </Navbar.Collapse>
             
