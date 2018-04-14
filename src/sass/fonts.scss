@@ -5,3 +5,10 @@ h1, h2 {
   font-weight: 400;
   margin-bottom: 20px;
 }
+.title-row{
+    font-family: $fontHighLight;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    border-left:3px solid $decorativeColor;
+    }

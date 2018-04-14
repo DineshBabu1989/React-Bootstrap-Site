@@ -1,0 +1,90 @@
+/*colors*/
+/*primary colors */
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.title-row {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 3px solid #f5b929; }
+
+.service {
+  background-color: #f7f7f7;
+  background-image: url("../../images/featurebg.png");
+  background-repeat: no-repeat center;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .service .container {
+    color: #333; }
+    .service .container .title-row {
+      font-family: "Lato", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      padding: 10px;
+      border-left: 3px solid #f5b929; }
+    .service .container .title-row-content {
+      padding-top: 10px;
+      text-align: justify;
+      font-weight: 100;
+      font-family: "Open Sans", sans-serif; }
+    .service .container .item-holder {
+      padding: 10px; }
+      .service .container .item-holder .item {
+        background-color: #f7f7f7;
+        height: 150px;
+        -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+        box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19); }
+      .service .container .item-holder .item-icon {
+        color: #f7f7f7;
+        font-size: 70px;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+        background-color: #1c2331;
+        vertical-align: middle; }
+      .service .container .item-holder .item-text {
+        border-left: 1px solid #fff;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        height: 150px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-weight: 100;
+        padding: 15px;
+        text-align: left;
+        color: #333;
+        -webkit-transition: background-color 1s ease-in;
+        -moz-transition: background-color 1s ease-in;
+        -o-transition: background-color 1s ease-in;
+        transition: background-color 1s ease-in; }
+        .service .container .item-holder .item-text:hover {
+          border-left: 1px solid #f5b929;
+          background-color: #1c2331;
+          color: #fff;
+          -webkit-transition: background-color 1s ease-out;
+          -moz-transition: background-color 1s ease-out;
+          -o-transition: background-color 1s ease-out;
+          transition: background-color 1s ease-out; }
+        .service .container .item-holder .item-text .item-text-title {
+          font-family: "Lato", sans-serif;
+          font-size: 24px;
+          font-weight: 100; }
+
+@media (max-width: 767px) {
+  .service .item-icon {
+    color: #f7f7f7;
+    font-size: 40px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background-color: #1c2331;
+    vertical-align: middle; }
+  .service .container .item-holder .item-text .item-text-title {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 100; } }

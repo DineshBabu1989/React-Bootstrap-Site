@@ -1,0 +1,44 @@
+@import "../../colors";
+@import "../../mixins";
+@import "../../fonts";
+
+.jumbotron 
+{
+    background-image: url(../../../images/bgimg1.png);
+    font-family: $fontHighLight;
+    color:$textColorLight;
+    padding-right: 10px;
+    .jumbotronTitle{
+     font-family: $fontHighLight;
+     font-size: 36px;
+     font-weight: 700;
+    }
+    .jumbotronText{
+     font-family: $font;
+     font-size: 18px;
+     font-weight: 300;
+    }
+     .btn-primary {
+    color: $textColorLight;
+    border-radius:0px;
+    background-color: $themeColor;
+    border-color:$decorativeColor ;
+    width:150px;
+    height: 50px;
+    margin-top: 40px;
+    font-family: $font;
+    font-size: 14px;
+    @include transition-in;
+    &:hover{
+        
+         color: $textColorDark;
+         border-color:$decorativeColor ;
+         background-color: $pageColor;
+         @include transition-out;
+   
+    }
+}
+}
+    
+
+

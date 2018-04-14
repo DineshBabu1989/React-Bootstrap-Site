@@ -1,0 +1,35 @@
+/*colors*/
+/*primary colors */
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.title-row {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 3px solid #f5b929; }
+
+.card-space {
+  background-color: none;
+  padding: 10px; }
+  .card-space .card {
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19); }
+  .card-space .card-title {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    padding-left: 10px; }
+  .card-space .card-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify; }
+  .card-space .card-hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #eee; }

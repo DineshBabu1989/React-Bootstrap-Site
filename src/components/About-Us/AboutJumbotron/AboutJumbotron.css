@@ -13,11 +13,10 @@ h1, h2 {
   border-left: 3px solid #f5b929; }
 
 .jumbotron {
-  background: transparent;
+  background-image: url(../../../images/bgimg1.png);
   font-family: "Lato", sans-serif;
   color: #fff;
-  padding-left: 100px;
-  margin-bottom: 0px; }
+  padding-right: 10px; }
   .jumbotron .jumbotronTitle {
     font-family: "Lato", sans-serif;
     font-size: 36px;
@@ -31,7 +30,6 @@ h1, h2 {
     border-radius: 0px;
     background-color: #1c2331;
     border-color: #f5b929;
-    margin-left: 10px;
     width: 150px;
     height: 50px;
     margin-top: 40px;
@@ -49,38 +47,3 @@ h1, h2 {
       -moz-transition: background-color 1s ease-out;
       -o-transition: background-color 1s ease-out;
       transition: background-color 1s ease-out; }
-
-@media only screen and (max-width: 700px) {
-  .jumbotron {
-    background: transparent;
-    color: #fff;
-    padding: 10px;
-    margin-bottom: 0px; }
-    .jumbotron .btn-primary {
-      color: #fff;
-      background-color: #1c2331;
-      border-color: #f5b929;
-      margin-left: 0px;
-      width: 150px;
-      height: 50px;
-      font-size: 14px;
-      margin-top: 8px;
-      -webkit-transition: background-color 1s ease-in;
-      -moz-transition: background-color 1s ease-in;
-      -o-transition: background-color 1s ease-in;
-      transition: background-color 1s ease-in; }
-      .jumbotron .btn-primary:hover {
-        color: #333;
-        background-color: #f7f7f7;
-        -webkit-transition: background-color 1s ease-out;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1s ease-out;
-        transition: background-color 1s ease-out; }
-    .jumbotron .jumbotronTitle {
-      font-family: "Lato", sans-serif;
-      font-size: 30px;
-      font-weight: 700; }
-    .jumbotron .jumbotronText {
-      font-family: "Open Sans", sans-serif;
-      font-size: 18px;
-      font-weight: 300; } }

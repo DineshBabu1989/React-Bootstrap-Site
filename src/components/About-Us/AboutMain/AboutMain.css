@@ -1,0 +1,24 @@
+/*colors*/
+/*primary colors */
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.title-row {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 3px solid #f5b929; }
+
+.about-main {
+  background-color: #f7f7f7;
+  background-image: url("../../../images/featurebg.png");
+  background-repeat: no-repeat center; }
+  .about-main .container {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+  .about-main .row-content {
+    padding: 10px;
+    text-align: justify; }

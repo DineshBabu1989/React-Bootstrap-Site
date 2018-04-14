@@ -5,6 +5,13 @@ h1, h2 {
   font-weight: 400;
   margin-bottom: 20px; }
 
+.title-row {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 3px solid #f5b929; }
+
 .navbar-default {
   background-color: #1c2331;
   margin-bottom: 0px;

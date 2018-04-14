@@ -1,0 +1,34 @@
+/*colors*/
+/*primary colors */
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.title-row {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 3px solid #f5b929; }
+
+.scroller {
+  background-color: #1c2331;
+  color: #fff;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out; }
+  .scroller:hover {
+    background-color: #2f3a51; }
+
+.scrollerText {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }

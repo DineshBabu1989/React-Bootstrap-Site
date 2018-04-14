@@ -1,0 +1,18 @@
+@import "../../colors";
+@import "../../mixins";
+@import "../../fonts";
+.about-main{
+ 
+    background-color:$pageColor;
+    background-image: url("../../../images/featurebg.png");
+    background-repeat: no-repeat center;
+    .container{
+      padding-top:60px;
+      padding-bottom:60px;
+    }
+    .row-content{
+      padding: 10px;
+      text-align: justify;
+    }
+  
+}
