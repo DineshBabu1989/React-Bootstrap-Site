@@ -13,9 +13,11 @@ class AboutScroller extends Component {
  }
 
 componentDidMount() {
-       {this.startTimer();}
+      
+     window.addEventListener('load', this.startTimer.bind(this));
 }
-    
+ 
+
 tick(){
       
       if( this.state.locations < 3)
