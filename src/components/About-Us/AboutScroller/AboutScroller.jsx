@@ -13,10 +13,11 @@ class AboutScroller extends Component {
  }
 
 componentDidMount() {
-      
-     window.addEventListener('load', this.startTimer.bind(this));
+       {this.startTimer();}
 }
- 
+componentDidUpdate() {
+       {this.startTimer();}
+} 
 
 tick(){
       
