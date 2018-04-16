@@ -1,5 +1,5 @@
 ### React-Redux-Sass-Web Application:
-The project holds a fully functional - fully responsive web application designed using React and Sass.The project is created by Dinesh-B.
+The project holds a fully functional - fully responsive web application designed using React and Sass.The project is created by Dinesh-B using create react app - from react official documentation.
 
 ### Getting Started
 
