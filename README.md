@@ -1,4 +1,4 @@
-# React-Express-Nodemailer
+# React-SASS
 
 The project implements react templating using react-bootstrap and SASS.
 
