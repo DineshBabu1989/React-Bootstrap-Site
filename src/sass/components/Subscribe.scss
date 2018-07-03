@@ -1,77 +1,72 @@
 @import "../fonts";
 @import "../mixins";
 @import "../colors";
-.baseGrid{
-    background-color: transparent;
-    color: $textColorLight;
-    .show-grid{
-    .subscribeText{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.baseGrid {
+  background-color: transparent;
+  color: $textColorLight;
+  .show-grid {
+    .subscribeText {
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
-    .subscribeButtonHolder{
-    padding-top: 80px;
-    padding-bottom: 50px;
+    .subscribeButtonHolder {
+      padding-top: 80px;
+      padding-bottom: 50px;
     }
-    }
+  }
 }
 
 .btn-primary2 {
+  color: $textColorLight;
+  margin: 0 auto;
+  float: right;
+  border-radius: 0px;
+  background-color: $themeColor;
+  border-color: $decorativeColor;
+  width: 200px;
+  height: 50px;
+  font-family: $font;
+  font-size: 18px;
+  font-weight: 300;
+  @include transition-in;
+  &:hover {
+    background-color: $pageColor;
+    color: $textColorDark;
+    @include transition-out;
+  }
+}
+@media (max-width: 767px) {
+  .baseGrid {
+    .show-grid {
+      .subscribeText {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .subscribeButtonHolder {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .btn-primary2 {
     color: $textColorLight;
-    margin: 0 auto;
-    float: right;
-    border-radius:0px;
+    border-radius: 0px;
     background-color: $themeColor;
-    border-color:$decorativeColor;
-    width:200px;
+    border-color: $decorativeColor;
+    width: 200px;
     height: 50px;
     font-family: $font;
     font-size: 18px;
     font-weight: 300;
     @include transition-in;
-    &:hover{
-         background-color:$pageColor;
-         color: $textColorDark;
-         @include transition-out;
-   
+    &:hover {
+      background-color: $pageColor;
+      color: $textColorDark;
+      @include transition-out;
     }
-}
-@media (max-width: 767px)
-{
-   .baseGrid{
-    .show-grid{
-    .subscribeText{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    }
-    .subscribeButtonHolder{
-    padding-top: 0px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    }
-    }
-    }
-
-.btn-primary2 {
-    color: $textColorLight;
-    border-radius:0px;
-    background-color: $themeColor;
-    border-color: $decorativeColor ;
-    width:200px;
-    height: 50px;
-    font-family: $font;
-    font-size: 18px;
-    font-weight: 300;
-    @include transition-in;
-    &:hover{
-        background-color:$pageColor;
-        color: $textColorDark;
-        @include transition-out;
-   
-    }
-}
-   
+  }
 }

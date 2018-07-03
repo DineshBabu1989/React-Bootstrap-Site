@@ -1,19 +1,23 @@
 /*colors*/
 /*primary colors */
-h1, h2 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .title-row {
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
-  border-left: 3px solid #f5b929; }
+  border-left: 3px solid #f5b929;
+}
 
 .slider-item {
-  height: 200px; }
+  height: 200px;
+}
 
 .carousel-control.left {
   position: absolute;
@@ -27,7 +31,8 @@ h1, h2 {
   background-color: none;
   background-image: none;
   filter: alpha(opacity=50);
-  opacity: .5; }
+  opacity: 0.5;
+}
 
 .carousel-control.right {
   position: absolute;
@@ -41,11 +46,14 @@ h1, h2 {
   background-color: none;
   background-image: none;
   filter: alpha(opacity=50);
-  opacity: .5; }
+  opacity: 0.5;
+}
 
 .testimonial-heading {
   color: #333;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .testimonial-content {
-  color: #333; }
+  color: #333;
+}

@@ -1,97 +1,85 @@
 @import "../mixins";
 @import "../colors";
 @import "../fonts";
- 
-.outterGrid{
-    background-color:$pageColor;
-    background-image: url("../../images/featurebg.png");
-    background-repeat: no-repeat center;
 
+.outterGrid {
+  background-color: $pageColor;
+  background-image: url("../../images/featurebg.png");
+  background-repeat: no-repeat center;
 }
-.columns{
-    margin-top:50px;
-    margin-bottom:70px;
-    background-color: transparent;
+.columns {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  background-color: transparent;
 }
-.columnText{
-    background-color: transparent;
-    color:$textColorDark;
-    font-family: $font;
-    text-align:justify;
-    font-size:14px;
-    font-weight:100;
-   
-   
+.columnText {
+  background-color: transparent;
+  color: $textColorDark;
+  font-family: $font;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 100;
 }
 //Title Row
-.titleRow
-{
-    margin:10px;
-    margin-top:25px;
-    border-left:3px solid $decorativeColor ;
-    Padding-left: 15px;
-    padding-top:0px;
-   
+.titleRow {
+  margin: 10px;
+  margin-top: 25px;
+  border-left: 3px solid $decorativeColor;
+  padding-left: 15px;
+  padding-top: 0px;
 }
-.titleRowContent
-{
-     margin:10px;
-    
+.titleRowContent {
+  margin: 10px;
 }
-.rowsTile{
-    background-color: transparent;
+.rowsTile {
+  background-color: transparent;
 }
-.rows{
-    background-color: $themeColor;
-    margin-top:20px;
-    margin-right:0px;
-    margin-left:0px;
-    color:$textColorLight;
-    text-align: justify;
+.rows {
+  background-color: $themeColor;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: $textColorLight;
+  text-align: justify;
 }
 
 //list separate
-.coltexts{
-    background-color: $pageColor;
-    font-family: $font;
+.coltexts {
+  background-color: $pageColor;
+  font-family: $font;
 }
-.coltext{
-    background-color: $pageColor;
-    color:$textColorDark;
-    height: 150px;
-    font-size:13px;
-    font-weight:100;
-    font-family: $font;
-    text-align: left;
-    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
-    @include transition-in;
-    &:hover{
-        background-color:$themeColor ;
-        color:$textColorLight;
-        border-left:1px solid $decorativeColor;
-        @include transition-out;
-    }
-    
+.coltext {
+  background-color: $pageColor;
+  color: $textColorDark;
+  height: 150px;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: $font;
+  text-align: left;
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  @include transition-in;
+  &:hover {
+    background-color: $themeColor;
+    color: $textColorLight;
+    border-left: 1px solid $decorativeColor;
+    @include transition-out;
+  }
 }
-.icon1{
-    
-    font-size: 70px;
-    margin-top:40px;
-    margin-left:10px;
-    
+.icon1 {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
-@media (max-width: 767px)
-{
-   .outterGrid{
-    background-color:$pageColor;
+@media (max-width: 767px) {
+  .outterGrid {
+    background-color: $pageColor;
+  }
 
-}
-    
-    .columnText{
-    background-color:none;
-    color:$textColorDark;
+  .columnText {
+    background-color: none;
+    color: $textColorDark;
     font-family: $font;
-    text-align:justify;
-} 
+    text-align: justify;
+  }
 }

@@ -1,30 +1,31 @@
 @import "../colors";
 @import "../fonts";
 @import "../mixins";
-.modal-content{
-    border-radius:0px;
-    .btn-modal{
-        background-color: $buttonColor;
-        color:$textColorLight;
-        border-radius:0px;
-        transition: .5s ease;
-        @include transition-in;
-        &:hover{
-         color: $textColorDark;
-         background-color: $buttonHover;
-         @include transition-out;  
-   
-     }
-     }
-     h1, h2, h3 {
-     margin-top: 10px;
-     margin-bottom: 10px;
-     }   
+.modal-content {
+  border-radius: 0px;
+  .btn-modal {
+    background-color: $buttonColor;
+    color: $textColorLight;
+    border-radius: 0px;
+    transition: 0.5s ease;
+    @include transition-in;
+    &:hover {
+      color: $textColorDark;
+      background-color: $buttonHover;
+      @include transition-out;
+    }
+  }
+  h1,
+  h2,
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 .modal-body {
-    position: relative;
-    padding: 15px;
-    padding-top: 5px;
-    font-family: $font;
-    text-align: justify;
-    }
+  position: relative;
+  padding: 15px;
+  padding-top: 5px;
+  font-family: $font;
+  text-align: justify;
+}

@@ -1,19 +1,19 @@
 @import "../../colors";
 @import "../../mixins";
 @import "../../fonts";
-.scroller{
-    background-color: $themeColor;
-    color:$textColorLight;
-    @include transition-in;
-    &:hover{
-    background-color: lighten($themeColor,10%)
-    }
-    @include transition-out;
+.scroller {
+  background-color: $themeColor;
+  color: $textColorLight;
+  @include transition-in;
+  &:hover {
+    background-color: lighten($themeColor, 10%);
+  }
+  @include transition-out;
 }
-.scrollerText{
-    font-family: $fontHighLight;
-    font-size: 30px;
-    text-align: center;
-    padding-top:20px;
-    padding-bottom:20px;
+.scrollerText {
+  font-family: $fontHighLight;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

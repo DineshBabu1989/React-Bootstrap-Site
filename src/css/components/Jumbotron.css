@@ -1,8 +1,14 @@
 /*colors*/
 /*primary colors */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
 
 /*$themeColor : #1c2331;
 $themeDark  : darken($themeColor,2%);
@@ -18,57 +24,70 @@ $smallLine:lighten(#1c2331, 40% );*/
   color: #fff;
   padding-left: 100px;
   margin-bottom: 0px;
-  height: 350px; }
-  .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
-    font-family: "Lato", sans-serif;
-    font-weight: 400; }
-  .jumbotron .btn-primary {
-    color: #fff;
-    border-radius: 0px;
-    background-color: #1c2331;
-    border-color: #f5b929;
-    margin-left: 10px;
-    width: 150px;
-    height: 50px;
-    margin-top: 40px;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 14px;
-    -webkit-transition: background-color 1s ease-in;
-    -moz-transition: background-color 1s ease-in;
-    -o-transition: background-color 1s ease-in;
-    transition: background-color 1s ease-in; }
-    .jumbotron .btn-primary:hover {
-      color: #000;
-      border-color: #f5b929;
-      background-color: #f7f7f7;
-      -webkit-transition: background-color 1s ease-out;
-      -moz-transition: background-color 1s ease-out;
-      -o-transition: background-color 1s ease-out;
-      transition: background-color 1s ease-out; }
+  height: 350px;
+}
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.jumbotron .btn-primary {
+  color: #fff;
+  border-radius: 0px;
+  background-color: #1c2331;
+  border-color: #f5b929;
+  margin-left: 10px;
+  width: 150px;
+  height: 50px;
+  margin-top: 40px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  -webkit-transition: background-color 1s ease-in;
+  -moz-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in;
+}
+.jumbotron .btn-primary:hover {
+  color: #000;
+  border-color: #f5b929;
+  background-color: #f7f7f7;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
 
 @media only screen and (max-width: 700px) {
   .jumbotron {
     background: transparent;
     color: #fff;
     padding: 10px;
-    margin-bottom: 0px; }
-    .jumbotron .btn-primary {
-      color: #fff;
-      background-color: #1c2331;
-      border-color: #f5b929;
-      margin-left: 0px;
-      width: 150px;
-      height: 50px;
-      font-size: 16px;
-      margin-top: 8px;
-      -webkit-transition: background-color 1s ease-in;
-      -moz-transition: background-color 1s ease-in;
-      -o-transition: background-color 1s ease-in;
-      transition: background-color 1s ease-in; }
-      .jumbotron .btn-primary:hover {
-        color: #000;
-        background-color: #f7f7f7;
-        -webkit-transition: background-color 1s ease-out;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1s ease-out;
-        transition: background-color 1s ease-out; } }
+    margin-bottom: 0px;
+  }
+  .jumbotron .btn-primary {
+    color: #fff;
+    background-color: #1c2331;
+    border-color: #f5b929;
+    margin-left: 0px;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 8px;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+  }
+  .jumbotron .btn-primary:hover {
+    color: #000;
+    background-color: #f7f7f7;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+}

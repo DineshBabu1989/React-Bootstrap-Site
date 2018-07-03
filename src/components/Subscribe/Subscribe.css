@@ -1,19 +1,24 @@
-h1, h2 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 /*colors*/
 /*primary colors */
 .baseGrid {
   background-color: transparent;
-  color: #fff; }
-  .baseGrid .show-grid .subscribeText {
-    padding-top: 50px;
-    padding-bottom: 50px; }
-  .baseGrid .show-grid .subscribeButtonHolder {
-    padding-top: 80px;
-    padding-bottom: 50px; }
+  color: #fff;
+}
+.baseGrid .show-grid .subscribeText {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.baseGrid .show-grid .subscribeButtonHolder {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
 
 .btn-primary2 {
   color: #fff;
@@ -30,19 +35,22 @@ h1, h2 {
   -webkit-transition: background-color 1s ease-in;
   -moz-transition: background-color 1s ease-in;
   -o-transition: background-color 1s ease-in;
-  transition: background-color 1s ease-in; }
-  .btn-primary2:hover {
-    background-color: #f7f7f7;
-    color: #333;
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out; }
+  transition: background-color 1s ease-in;
+}
+.btn-primary2:hover {
+  background-color: #f7f7f7;
+  color: #333;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
 
 @media (max-width: 767px) {
   .baseGrid .show-grid .subscribeText {
     padding-top: 50px;
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+  }
   .baseGrid .show-grid .subscribeButtonHolder {
     padding-top: 0px;
     padding-bottom: 20px;
@@ -54,7 +62,8 @@ h1, h2 {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+  }
   .btn-primary2 {
     color: #fff;
     border-radius: 0px;
@@ -68,11 +77,14 @@ h1, h2 {
     -webkit-transition: background-color 1s ease-in;
     -moz-transition: background-color 1s ease-in;
     -o-transition: background-color 1s ease-in;
-    transition: background-color 1s ease-in; }
-    .btn-primary2:hover {
-      background-color: #f7f7f7;
-      color: #333;
-      -webkit-transition: background-color 1s ease-out;
-      -moz-transition: background-color 1s ease-out;
-      -o-transition: background-color 1s ease-out;
-      transition: background-color 1s ease-out; } }
+    transition: background-color 1s ease-in;
+  }
+  .btn-primary2:hover {
+    background-color: #f7f7f7;
+    color: #333;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+}

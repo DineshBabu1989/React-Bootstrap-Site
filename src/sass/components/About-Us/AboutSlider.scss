@@ -2,41 +2,41 @@
 @import "../../colors";
 @import "../../fonts";
 
-.slider-item{
-    height:200px;
+.slider-item {
+  height: 200px;
 }
 .carousel-control.left {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 15%;
-    font-size: 20px;
-    color: $themeColor;
-    text-align: center;
-    background-color: none;
-    background-image: none;
-    filter: alpha(opacity=50);
-    opacity: .5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: $themeColor;
+  text-align: center;
+  background-color: none;
+  background-image: none;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 .carousel-control.right {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 15%;
-    font-size: 20px;
-    color: $themeColor;
-    text-align: center;
-    background-color: none;
-    background-image: none;
-    filter: alpha(opacity=50);
-    opacity: .5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 15%;
+  font-size: 20px;
+  color: $themeColor;
+  text-align: center;
+  background-color: none;
+  background-image: none;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
-.testimonial-heading{
-    color:$textColorDark;
-    text-decoration: none;
+.testimonial-heading {
+  color: $textColorDark;
+  text-decoration: none;
 }
-.testimonial-content{
-    color:$textColorDark;
+.testimonial-content {
+  color: $textColorDark;
 }

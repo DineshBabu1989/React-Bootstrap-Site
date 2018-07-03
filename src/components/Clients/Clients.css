@@ -1,32 +1,38 @@
 /*colors*/
 /*primary colors */
-h1, h2 {
-  font-family: 'Lato', sans-serif;
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .title-row {
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
-  border-left: 3px solid #f5b929; }
+  border-left: 3px solid #f5b929;
+}
 
 .client-style .container-fluid {
   background-color: #f7f7f7;
   background-image: url("../../images/featurebg.png");
-  background-repeat: no-repeat center; }
+  background-repeat: no-repeat center;
+}
 
 .client-style .container {
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 15px; }
+  padding: 15px;
+}
 
 .client-style .title .row {
   color: #333;
   border-left: 3px solid #f5b929;
   margin: 15px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .client-style .title .content {
   padding: 15px;
@@ -34,19 +40,26 @@ h1, h2 {
   text-align: justify;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .client-style .grid {
-  background-color: none; }
-  .client-style .grid .item {
-    padding: 10px; }
-    .client-style .grid .item .itemContent {
-      border: 1px solid #1c2331;
-      background-color: #f7f7f7;
-      text-align: center; }
+  background-color: none;
+}
+.client-style .grid .item {
+  padding: 10px;
+}
+.client-style .grid .item .itemContent {
+  border: 1px solid #1c2331;
+  background-color: #f7f7f7;
+  text-align: center;
+}
 
-.img-responsive, .thumbnail a > img, .thumbnail > img {
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
   display: block center;
   max-width: 100%;
   height: auto;
-  margin: auto; }
+  margin: auto;
+}

@@ -1,54 +1,50 @@
 @import "../colors";
 @import "../fonts";
 
-.client-style{
-    
-    .container-fluid{
+.client-style {
+  .container-fluid {
+    background-color: $pageColor;
+    background-image: url("../../images/featurebg.png");
+    background-repeat: no-repeat center;
+  }
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .title {
+    .row {
+      color: $textColorDark;
+      border-left: 3px solid $decorativeColor;
+      margin: 15px;
+      padding-left: 15px;
+    }
+    .content {
+      padding: 15px;
+      padding-top: 0px;
+      text-align: justify;
+      font-family: $font;
+      font-weight: 100;
+      font-size: 14px;
+    }
+  }
+  .grid {
+    background-color: none;
+    .item {
+      padding: 10px;
+      .itemContent {
+        border: 1px solid $themeColor;
         background-color: $pageColor;
-        background-image: url("../../images/featurebg.png");
-        background-repeat: no-repeat center;
+        text-align: center;
+      }
     }
-    .container{
-        margin-top:50px;
-        margin-bottom:50px;
-        padding:15px;
-    }
-    .title{
-        
-        .row{
-            color:$textColorDark;
-            border-left: 3px solid $decorativeColor; 
-            margin:15px;
-            padding-left:15px;
-            
-        }
-        .content{
-            padding:15px;
-            padding-top:0px;
-            text-align: justify;
-            font-family: $font;
-            font-weight: 100;
-            font-size:14px;
-        }
-       
-    }
-    .grid {
-            background-color:none;
-            .item{
-                  
-                  padding:10px;
-                 .itemContent{
-                  border:1px solid $themeColor;
-                  background-color:$pageColor;
-                  text-align: center;
-                  }
-            
-            }
-     }
+  }
 }
-.img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block center;
-    max-width: 100%;
-    height: auto;
-    margin:auto;
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: block center;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
 }

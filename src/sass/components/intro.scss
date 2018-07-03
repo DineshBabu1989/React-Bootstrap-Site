@@ -2,86 +2,86 @@
 @import "../colors";
 @import "../fonts";
 
-.outterRing{ 
-    background-color:$themeColor;
-    //height: 200px;
-    color:$textColorLight;
-    font-family: $font;
-    font-Size:20px;
-    padding:25px;
-    @include transition-in;
-    &:hover{
-    background-color:lighten($themeColor, 10%);
+.outterRing {
+  background-color: $themeColor;
+  //height: 200px;
+  color: $textColorLight;
+  font-family: $font;
+  font-size: 20px;
+  padding: 25px;
+  @include transition-in;
+  &:hover {
+    background-color: lighten($themeColor, 10%);
     @include transition-out;
-   
-    }
-  
+  }
 }
-.innerRing{
-    //height:150px;    
-    color:$textColorLight;
-    border-bottom: 1px solid $decorativeColor ;
-    border-top: 1px solid $decorativeColor ;
-    padding-right: 50px;
-    padding-bottom: 32px;
-    text-align: left;
-    font-family: $font;
-    font-Size:17px;
-    font-weight: 100;
-    margin-right: 80px;
-    h1, h2, h3, h4, h5, h6 {
+.innerRing {
+  //height:150px;
+  color: $textColorLight;
+  border-bottom: 1px solid $decorativeColor;
+  border-top: 1px solid $decorativeColor;
+  padding-right: 50px;
+  padding-bottom: 32px;
+  text-align: left;
+  font-family: $font;
+  font-size: 17px;
+  font-weight: 100;
+  margin-right: 80px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: $fontHighLight;
     //font-weight: 300;
-    }
-    span{
-        font-size:30px;
-        font-weight: 700;
-    }
+  }
+  span {
+    font-size: 30px;
+    font-weight: 700;
+  }
 }
 
-.icon{
-    margin-top:0px;
-    font-size: 150px;
-    float:left;
-    color:$textColorLight;
-    
+.icon {
+  margin-top: 0px;
+  font-size: 150px;
+  float: left;
+  color: $textColorLight;
 }
-.iconHolder
-{
-    padding-top: 8px;
-    padding-bottom: 9px;
-    border-bottom: 1px solid $decorativeColor ;
-    border-top: 1px solid $decorativeColor ;
+.iconHolder {
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid $decorativeColor;
+  border-top: 1px solid $decorativeColor;
 }
 
 //Mobile Css
 @media screen and (max-width: 768px) {
-    .outterRing{ 
-    background-color:$themeColor;
-    color:$textColorLight;
+  .outterRing {
+    background-color: $themeColor;
+    color: $textColorLight;
     font-family: $font;
-    font-Size:20px;
-    padding:25px;
-     @include transition-in;
-    &:hover{
-    background-color:lighten($themeColor, 10%);;
-    @include transition-out;
+    font-size: 20px;
+    padding: 25px;
+    @include transition-in;
+    &:hover {
+      background-color: lighten($themeColor, 10%);
+      @include transition-out;
     }
-    }
-    .innerRing{   
+  }
+  .innerRing {
     border-bottom: 1px solid $decorativeColor;
     border-top: 1px solid $decorativeColor;
     padding-right: 0px;
     text-align: center;
-    font-Size:17px;
+    font-size: 17px;
     margin-right: 80px;
-    }
-    .icon{
-    display:none;
-    }
-    .iconHolder
-    {
+  }
+  .icon {
+    display: none;
+  }
+  .iconHolder {
     border-bottom: none;
     border-top: none;
-    }
+  }
 }

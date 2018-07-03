@@ -1,66 +1,61 @@
 @import "../colors";
 @import "../fonts";
 
-.techContainer{
-    margin-top:50px;
-    margin-bottom:50px;
-    //margin-bottom: 20px;
+.techContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  //margin-bottom: 20px;
 }
-.techHeading{
-    color:$textColorLight;
-    border-left:3px solid $decorativeColor;
-    margin: 15px;
-    margin-bottom: 30px;
+.techHeading {
+  color: $textColorLight;
+  border-left: 3px solid $decorativeColor;
+  margin: 15px;
+  margin-bottom: 30px;
 }
-/*Individual elements & over lay effect inside each block */ 
-.list-pic{
-    height:170px;
-    background-color: transparent;
-    list-style: none;
-    padding:10px;
-
+/*Individual elements & over lay effect inside each block */
+.list-pic {
+  height: 170px;
+  background-color: transparent;
+  list-style: none;
+  padding: 10px;
 }
-.list-pic-innerBlock
-{
-    height:150px;
+.list-pic-innerBlock {
+  height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: white;
+  box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  &:hover .overlay {
+    opacity: 0.95;
+    border: 1px solid $decorativeColor;
+  }
+  .overlay {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 150px;
+    width: 90%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: $themeColor;
+    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+  }
+  .text {
     overflow: hidden;
     text-overflow: ellipsis;
-    background-color:white;
-    box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
+    color: $textColorLight;
+    font-size: 12px;
+    position: absolute;
     text-align: center;
-    padding-top:25px;
-    padding-bottom: 25px;
-    &:hover .overlay {
-        opacity:0.95;
-        border: 1px solid $decorativeColor ;
+    font-family: $font;
+    padding: 15px;
+    h2 {
+      text-align: center;
     }
-    .overlay {
-      position: absolute;
-      top: 10px;
-      bottom: 10px;
-      left: 10px;
-      right: 10px;
-      height: 150px;
-      width:  90%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color:$themeColor;
-      box-shadow: 0 1px 21px rgba(0, 0, 0, 0.19);
-             }
-    .text {
-          overflow: hidden;
-          text-overflow: ellipsis;
-          color: $textColorLight;
-          font-size: 12px;
-          position: absolute;
-          text-align: center;
-          font-family: $font;
-          padding:15px;
-        h2{
-            text-align: center;
-          }
-          }
+  }
 }
-
-
-

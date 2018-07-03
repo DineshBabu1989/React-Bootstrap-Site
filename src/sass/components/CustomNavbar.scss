@@ -2,118 +2,116 @@
 @import "../colors";
 @import "../fonts";
 
-.navbar-default  {
- background-color: $themeColor;
- margin-bottom: 0px;
- border: none;
- border-radius: 0;
- padding-top:7px;
- padding-bottom:10px;
- font-family: $font;
- font-size: 14px;
- font-weight: 300;
+.navbar-default {
+  background-color: $themeColor;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: 300;
 }
-//Navbar List 
-.navbar-default .navbar-nav > li{
- padding-top:12px;
- padding-bottom:0px;
- color:$textColorLight ;
+//Navbar List
+.navbar-default .navbar-nav > li {
+  padding-top: 12px;
+  padding-bottom: 0px;
+  color: $textColorLight;
 }
 .navbar-default .navbar-nav > li:hover {
- color:$textColorLight;
- background-color: transparent;
- border-bottom: 3px solid $decorativeColor;
+  color: $textColorLight;
+  background-color: transparent;
+  border-bottom: 3px solid $decorativeColor;
 }
 .navbar-default .navbar-nav > li > a {
- color: $textColorLight;
+  color: $textColorLight;
 }
-.navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover {
- color: $textColorLight;
- background-color: transparent;
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: $textColorLight;
+  background-color: transparent;
 }
-.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
- color:$textColorLight ;
- background-color: transparent;
+  color: $textColorLight;
+  background-color: transparent;
 }
 //Navbar List Drop Down
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.open>a:focus, 
-.navbar-default .navbar-nav>.open>a:hover {
-    color: $textColorLight  ;
-    background-color: transparent;
-    border-bottom: 3px solid $decorativeColor ;
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: $textColorLight;
+  background-color: transparent;
+  border-bottom: 3px solid $decorativeColor;
 }
 
 /* Over writting Bootstrap Site for link color on drop down*/
 .navbar-default .navbar-nav .open .dropdown-menu {
-    background-color:$themeColor;
-    color:$textColorLight ;
-    border-radius:0px;
-    width:200px;
-    
+  background-color: $themeColor;
+  color: $textColorLight;
+  border-radius: 0px;
+  width: 200px;
 }
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: $textColorLight ;
-    font-family: $font;
-    font-size: 14px;
-    font-weight: 300;
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: $textColorLight;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: 300;
 }
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: $textColorLight ;
-    background-color: transparent;
-    border-bottom: 3px solid $decorativeColor ;
-    
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: $textColorLight;
+  background-color: transparent;
+  border-bottom: 3px solid $decorativeColor;
 }
 .navbar-default .navbar-nav .open .dropdown-menu .divider {
-    background-color: $decorativeColor ;
-    
+  background-color: $decorativeColor;
 }
 /* centering the drop down list */
 .navbar-default .dropdown-menu {
-    right: 0;
-    left:  0;
+  right: 0;
+  left: 0;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: $decorativeColor ;
-    background-color:$themeColor ;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: $decorativeColor;
+  background-color: $themeColor;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   border-color: $decorativeColor;
 }
-.logofix{
-    position: relative;
-    width:100px;
-    height:70px;
-    margin-left: 0px;
+.logofix {
+  position: relative;
+  width: 100px;
+  height: 70px;
+  margin-left: 0px;
 }
 
-@media (max-width: 767px)
-{
-    .navbar-default .navbar-nav > li{
-    padding-top:0px;
-    padding-bottom:0px;
-    color:$textColorLight ;
-    }
-    .navbar-nav .open .dropdown-menu {
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav > li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: $textColorLight;
+  }
+  .navbar-nav .open .dropdown-menu {
     position: static;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     float: none;
     width: auto;
     margin-top: 0;
     background-color: $themeColor;
     border: 1px;
-    border-color: $decorativeColor; 
+    border-color: $decorativeColor;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
-    }
-    
-    /*Navbar Toggle*/
-    .navbar-toggle {
+  }
+
+  /*Navbar Toggle*/
+  .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -125,37 +123,32 @@
     background-image: none;
     border: 1px solid $textColorLight;
     border-radius: 0px;
-    }
-    .navbar-default .navbar-toggle:hover, 
-    .navbar-default .navbar-toggle:focus {
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
     border: 1px solid $decorativeColor;
     background-color: $themeColor;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
+  }
+  .navbar-default .navbar-toggle .icon-bar {
     background-color: $textColorLight;
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu {
-    background-color:$themeColor;
-    color:$textColorLight ;
-    border-radius:0px;
-    width:100%;
-    
-    }
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: $textColorLight ;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: $themeColor;
+    color: $textColorLight;
+    border-radius: 0px;
+    width: 100%;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $textColorLight;
     font-family: $font;
     font-size: 14px;
     font-weight: 300;
-    }
-/* logo fixing css */
-    .logofix{
+  }
+  /* logo fixing css */
+  .logofix {
     position: relative;
-    width:100px;
-    height:70px;
+    width: 100px;
+    height: 70px;
     margin-left: 10px;
-    }
-
+  }
 }
-
-
-
