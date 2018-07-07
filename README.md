@@ -1,6 +1,6 @@
 # React-SASS
 
-The project implements react templating using react-bootstrap and SASS.
+The project implements react templating using react-bootstrap and SASS.The project is created using createreactapp boilerplate provided by facebook.
 
 ## Concepts
 
